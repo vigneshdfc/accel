@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "Regular";
+  src: url("./assets/Fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("./assets/Fonts/Montserrat-Bold.ttf");
+}

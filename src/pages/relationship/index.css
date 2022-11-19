@@ -1,0 +1,44 @@
+.Relation {
+  padding: 14vw 7vw 3vw 10vw;
+  border-bottom-left-radius: 1.786vw;
+  color: #fff;
+  background-color: #270157;
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.nav {
+  display: flex;
+  font-size: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding: 45px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+.line {
+  height: 70px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Spotlight {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
