@@ -1,14 +1,17 @@
 import React from "react";
-import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import SimpleSlider from "../src/components/carausel/carausel";
+import Sidebar from "./components/sidenav/sidenav";
 import Home from "./pages/relationship/home";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <React.Fragment>
-        <Home />
-      </React.Fragment>
-    </>
+    <div>
+      <SimpleSlider  />
+      <Sidebar />
+      <Home />
+    </div>
   );
-}
+};
 export default App;
