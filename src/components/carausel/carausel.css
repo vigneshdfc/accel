@@ -1,0 +1,12 @@
+h2 {
+  color: blue;
+}
+.company_logo {
+  padding: 30px;
+  width: 1357px;
+  position: absolute;
+  left: 160px;
+  align-content: space-around;
+  background-color: #0d1824;
+  border-radius: 0 0 0 30px;
+}
