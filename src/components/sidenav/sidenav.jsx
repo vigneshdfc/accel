@@ -5,7 +5,7 @@ import logo from "../../assets/Images/icons/accel.svg";
 
 const Sidebar = () => {
   return (
-    <div className="nav">
+    <div className="navbar">
       <div className="menu">
         <img src={menu} alt="menu" width="24px" height="25px" />
       </div>

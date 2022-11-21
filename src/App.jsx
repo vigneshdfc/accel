@@ -8,7 +8,7 @@ import Home from "./pages/relationship/home";
 const App = () => {
   return (
     <div>
-      <SimpleSlider  />
+      {/*<SimpleSlider />*/}
       <Sidebar />
       <Home />
     </div>

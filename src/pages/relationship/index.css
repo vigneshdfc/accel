@@ -1,5 +1,5 @@
 .Relation {
-  padding: 14vw 7vw 3vw 10vw;
+  padding: 14.286vw 7.143vw 3.571vw 10.714vw;
   border-bottom-left-radius: 1.786vw;
   color: #fff;
   background-color: #270157;
@@ -22,23 +22,55 @@ p {
   text-decoration: none;
   color: black;
   padding: 45px;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  letter-spacing: 0.001em;
 }
 
-.product {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 2px solid black;
-}
-.line {
+/*.line {
   height: 70px;
   border: 1px solid black;
   margin-bottom: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
+}*/
+
+.product img {
+  display: grid;
+  grid-template-columns: auto;
+  width: 19.643vw;
+  padding: 24px 20px 20px 30px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #5101a0;
+  text-align: center;
 }
-.Spotlight {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
+
+.product h3 {
+  display: grid;
+  width: 14.286vw;
+  padding: 24px 20px 20px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: flex-start;
+  border-right: 1px solid #5101a0;
+}
+.Spotlight a {
+  text-decoration: none;
+  color: black;
+}
+.product {
+  display: grid;
+  grid-template-columns: 1.2fr 1.1fr 1fr 0.6fr;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: stretch;
+  border: 1px solid #5101a0;
+  font-size: 15px;
+  line-height: 100%;
+}
+.body {
+  margin-left: 160px;
 }

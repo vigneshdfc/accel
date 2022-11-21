@@ -44,8 +44,8 @@ import kry from "../../assets/Images/relationship/kry.png";
 import lookout from "../../assets/Images/relationship/lookout.png";
 import lydia from "../../assets/Images/relationship/lydia.png";
 import melio from "../../assets/Images/relationship/melio.png";
-import mensa from "../../assets/Images/relationship/mensa.jpg";
-import messagebird from "../../assets/Images/relationship/messagebird.png";
+//import mensa from "../../assets/Images/relationship/mensa.jpg";
+//import messagebird from "../../assets/Images/relationship/messagebird.png";
 
 const Relationship = () => {
   const [company] = useState([
@@ -323,7 +323,7 @@ const Relationship = () => {
       owner: "Matan Bar, ilan atias, ziv paz",
       link: "b2b payment for small business",
     },
-    {
+    /*{
       Image: mensa,
       year: "Seed/series A 2021",
       owner: "Ananth Narayanan",
@@ -334,10 +334,10 @@ const Relationship = () => {
       year: "series A 2017",
       owner: "Robert Vis, Adrian Mol",
       link: "Zero Friction Omni Channel Communication",
-    },
+    },*/
   ]);
   return (
-    <>
+    <div className="body">
       <div className="Relation">
         <h1>Relationship</h1>
         <p>
@@ -353,23 +353,23 @@ const Relationship = () => {
       </div>
       <div className="Spotlight">
         {company.map((item, idx) => (
-          <div className="product" key={idx}>
-            <img
-              src={item.Image}
-              alt={item.name}
-              width="150px"
-              height="100px"
-            />
-            <div className="line"></div>
-            <h3>{item.year}</h3>
-            <div className="line"></div>
-            <h3>{item.owner}</h3>
-            <div className="line"></div>
-            <h3>{item.link}</h3>
-          </div>
+          <a href="#">
+            {" "}
+            <div className="product" key={idx}>
+              <img
+                src={item.Image}
+                alt={item.name}
+                width="100px"
+                height="75px"
+              />
+              <h3>{item.year}</h3>
+              <h3>{item.owner}</h3>
+              <h3>{item.link}</h3>
+            </div>
+          </a>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
