@@ -4,18 +4,17 @@
   margin: 0;
 }
 .nav {
-  height: 100%;
   width: 155px;
   display: flex;
   position: fixed;
+  top: 0%;
   flex-direction: column;
   background-color: white;
   box-sizing: border-box;
   border-radius: 5px;
-  margin: 0;
 }
 .menu {
-  padding: 85px 70px 60px 60px;
+  padding: 25px 70px 60px 60px;
 }
 .logo {
   padding: 130px 45px 130px 45px;
