@@ -3,17 +3,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SimpleSlider from "../src/components/carausel/carausel";
 import Sidebar from "./components/sidenav/sidenav";
-import Head from "./components/header/header";
-import Hero from "./components/hero/hero";
+import Home from "./pages/relationship/home";
 
 const App = () => {
   return (
-    <React.Fragment>
-      <SimpleSlider />
+    <div>
+      {/*<SimpleSlider />*/}
       <Sidebar />
-      <Head />
-      <Hero />
-    </React.Fragment>
+      <Home />
+    </div>
   );
 };
 export default App;
