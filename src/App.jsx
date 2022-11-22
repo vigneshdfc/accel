@@ -7,6 +7,9 @@ import Home from "./pages/relationship/home";
 import { Routes, Route } from "react-router-dom";
 import Relationship from "./pages/relationship";
 import RelationshipTemplate from "./pages/relationship/template";
+import Card from "./components/cards/card";
+import Head from "./components/header/header";
+import Hero from "./components/hero/hero";
 
 const App = () => {
   return (
@@ -16,8 +19,11 @@ const App = () => {
           path="/"
           element={
             <>
-              {/*<SimpleSlider />*/}
+              <SimpleSlider />
               <Sidebar />
+              <Head />
+              <Hero />
+              <Card />
               <Home />
             </>
           }
