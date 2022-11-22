@@ -22,11 +22,9 @@
   padding: 0 90px 0 90px;
 }
 .hero {
-  max-width: 90%;
   display: flex;
   flex-direction: row;
-  position: relative;
-  left: 160px;
+  margin-left: 160px;
 }
 #myvideo {
   width: 59vw;

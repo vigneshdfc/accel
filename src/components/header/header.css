@@ -4,12 +4,9 @@
   margin: 0;
 }
 .accel_atoms {
-  width: 1357px;
-  position: relative;
   display: flex;
   flex-wrap: wrap;
-  left: 160px;
-
+  margin-left: 160px;
   padding: 40px 120px;
   background-color: #f8f1ff;
   color: #5101a0;

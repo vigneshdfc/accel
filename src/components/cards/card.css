@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.cards-section {
+  margin-left: 160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  top: 10px;
+  gap: 10px;
+}
+.ceo img {
+  max-width: 100%;
+}
+.section-one {
+  grid-area: sone;
+}
+.section-two {
+  grid-area: stwo;
+
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f4fb;
+  padding: 30px;
+}
+.note-worth {
+  box-sizing: border-box;
+  border-right: 1px solid #ee495f;
+  padding: 50px;
+}
+.note-carusel {
+  width: 250px;
+  padding: 30px 10px 30px 10px;
+}
+.note-wrap h4 {
+  color: #ee495f;
+  font-size: 16px;
+  text-decoration: none;
+}
+.note-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-two h3 {
+  color: #ee495f;
+  font-size: 30px;
+  line-height: 116%;
+  font-weight: 400;
+}
+.section-three {
+  grid-area: sthree;
+  text-decoration: none;
+}
+.slacktext h2 {
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  top: 280%;
+  left: 19%;
+  background-color: purple;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.slacktext {
+  background-color: purple;
+}
+.section-four {
+  grid-area: sfour;
+}
+.section-five {
+  grid-area: sfive;
+}
+.section-six {
+  grid-area: ssix;
+}
+.section-seven {
+  grid-area: sseven;
+}
+.section-eight {
+  grid-area: seight;
+}
+.section-nine {
+  grid-area: snine;
+}
+.section-ten {
+  grid-area: sten;
+}
+.section-eleven {
+  grid-area: seleven;
+}
+.section-twelve {
+  grid-area: stwelve;
+}
+.section-thirten {
+  grid-area: sthirten;
+}
+.section-fourten {
+  grid-area: sfourten;
+}
+.section-fifeten {
+  grid-area: sfifeten;
+}
+.section-sixten {
+  grid-area: ssixten;
+}
+.section-seventen {
+  grid-area: sseventen;
+}
+/*.section-two img {
+  margin: 20px;
+}
+.section-two h2 {
+  font-size: 30px;
+  margin-right: 70px;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.seed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.scale button {
+  display: inline-block;
+  padding: 9px 15px;
+  border: 1px solid #5101a0;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #5101a0;
+}
+.seed {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}*/

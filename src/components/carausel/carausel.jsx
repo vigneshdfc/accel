@@ -49,14 +49,14 @@ import melio from "../../assets/Images/relationship/melio.png";
 
 const SimpleSlider = () => {
   const settings = {
-    //infinite: true,
+    infinite: true,
     arrows: false,
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1500,
     autoplaySpeed: 500,
-    cssEase: "linear",
+    //cssEase: "linear",
   };
   return (
     <div className="company_logo">
