@@ -44,6 +44,7 @@ import kry from "../../assets/Images/relationship/kry.png";
 import lookout from "../../assets/Images/relationship/lookout.png";
 import lydia from "../../assets/Images/relationship/lydia.png";
 import melio from "../../assets/Images/relationship/melio.png";
+import { Link } from "react-router-dom";
 //import mensa from "../../assets/Images/relationship/mensa.jpg";
 //import messagebird from "../../assets/Images/relationship/messagebird.png";
 
@@ -353,8 +354,7 @@ const Relationship = () => {
       </div>
       <div className="Spotlight">
         {company.map((item, idx) => (
-          <a href="#">
-            {" "}
+          <Link to={`/relationship/${item.link}`}>
             <div className="product" key={idx}>
               <img
                 src={item.Image}
@@ -366,7 +366,7 @@ const Relationship = () => {
               <h3>{item.owner}</h3>
               <h3>{item.link}</h3>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

@@ -4,19 +4,27 @@ import "slick-carousel/slick/slick-theme.css";
 import SimpleSlider from "../src/components/carausel/carausel";
 import Sidebar from "./components/sidenav/sidenav";
 import Home from "./pages/relationship/home";
-import Head from "./components/header/header";
-import Hero from "./components/hero/hero";
-import Card from "./components/cards/card";
+import { Routes, Route } from "react-router-dom";
+import Relationship from "./pages/relationship";
+import RelationshipTemplate from "./pages/relationship/template";
 
 const App = () => {
   return (
     <div>
-      <SimpleSlider />
-      <Sidebar />
-      <Head />
-      <Hero />
-      <Card />
-      {/*<Home />*/}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              {/*<SimpleSlider />*/}
+              <Sidebar />
+              <Home />
+            </>
+          }
+        />
+        <Route path="/relationship" element={<Relationship />} />
+        <Route path="/relationship/:id" element={<RelationshipTemplate />} />
+      </Routes>
     </div>
   );
 };
