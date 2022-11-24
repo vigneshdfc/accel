@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./template.css";
 import pasword from "../../assets/Images/relationship/1password.svg";
 import grp from "../../assets/Pictures/password.jpeg";
+import { useParams } from "react-router-dom";
+import { relationshipData } from "../../data/relationship";
 
 const Pass = () => {
+  const { id } = useParams();
+  const [data, setData] = useState();
+
+  useEffect(() => {
+    setData(relationshipData.find((f) => f.title === id));
+  }, [id]);
+
+  if (!data) return null;
+
   return (
     <div className="pass">
       <div className="text-part">
@@ -14,15 +25,16 @@ const Pass = () => {
           <div className="founders">
             <h5>FOUNDERS</h5>
             <div className="line"></div>
-            <p>Jeff Shiner (CEO)</p>
-            <p> Roustem Karimov</p>
-            <p>Dave Teare</p>
+            {data.founders.map((f) => (
+              <p>{f}</p>
+            ))}
           </div>
           <div className="partners">
             <h5>PARTNERS</h5>
             <div className="line"></div>
-            <p>Arun Mathew</p>
-            <p>Ethan Choi</p>
+            {data.partners.map((p) => (
+              <p>{p}</p>
+            ))}
           </div>
         </div>
       </div>
@@ -31,13 +43,9 @@ const Pass = () => {
           <img src={grp} alt="" />
         </div>
         <div className="txt">
-          <p>
-            1Password provides a place for users — both organizations and
-            individuals — to store passwords and other sensitive information.
-            The company provides a virtual vault, which is itself locked with a
-            master password. Founded in 2006, 1Password didn’t accept outside
-            investment until the Accel-led Series A in 2019.
-          </p>
+          {data.description.map((d) => (
+            <p>{d}</p>
+          ))}
         </div>
       </div>
     </div>
