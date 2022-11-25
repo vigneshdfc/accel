@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SimpleSlider from "../src/components/carausel/carausel";
@@ -10,6 +11,7 @@ import RelationshipTemplate from "./pages/relationship/template";
 import Card from "./components/cards/card";
 import Head from "./components/header/header";
 import Hero from "./components/hero/hero";
+import Footer from "./pages/relationship/footer";
 
 const App = () => {
   return (
@@ -24,7 +26,8 @@ const App = () => {
               <Head />
               <Hero />
               <Card />
-              {/*<Home />*/}
+              {/*<Home />
+              <Footer />*/}
             </>
           }
         />

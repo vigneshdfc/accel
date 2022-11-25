@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import w from "../../assets/Icons/w.svg";
 
-const Downbar = () => {
+const Footer = () => {
   return (
     <div className="down-bar">
       <div className="footer">
@@ -30,4 +30,4 @@ const Downbar = () => {
     </div>
   );
 };
-export default Downbar;
+export default Footer;

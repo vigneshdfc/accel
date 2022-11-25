@@ -21,6 +21,16 @@ import silverman from "../../assets/Images/people/silverman.jpeg";
 import etsylogo from "../../assets/Images/people/etsy.png";
 import arista from "../../assets/Images/people/aristaceo.jpg";
 import aristalogo from "../../assets/Images/people/aristalogo.svg";
+import atoms from "../../assets/Images/icons/atoms.png";
+import user from "../../assets/Images/people/user.jpeg";
+import userlogo from "../../assets/Images/people/userlogo.png";
+import dropcam from "../../assets/Images/people/dropcam.jpeg";
+import dropcamlogo from "../../assets/Images/people/dropcamlogo.png";
+import sumo from "../../assets/Images/people/sumoceo.jpeg";
+import sumologo from "../../assets/Images/people/sumologo.png";
+import cloud from "../../assets/Images/people/cloudera.jpeg";
+import cloudlogo from "../../assets/Images/people/cloudlogo.svg";
+import blur from "../../assets/Images/people/bgblur.png";
 
 const Card = () => {
   const settings = {
@@ -36,8 +46,20 @@ const Card = () => {
       <div className="cards-section">
         <div className="block-right">
           <div className="section-one">
-            <div className="ceo">
-              <img src={ceo} alt="ceo" />
+            <div
+              className="ceo"
+              style={{
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+              url(${ceo})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                height: "100%",
+                width: "100%",
+              }}
+            >
+              <div>
+                <img src={blur} height="433px" width="100%" />
+              </div>
             </div>
           </div>
           <div className="section-two">
@@ -103,7 +125,13 @@ const Card = () => {
           <div className="section-three">
             <div className="slack_ceo">
               <a href="#">
-                <img className="image" src={slack} alt={slack} />
+                <img
+                  className="image"
+                  src={slack}
+                  alt={slack}
+                  width="100%"
+                  height="584px"
+                />
               </a>
               <div className="slacktext">
                 <a href="#">
@@ -301,19 +329,114 @@ const Card = () => {
             </div>
           </div>
           <div className="section-thirten">
-            <div></div>
+            <div className="accelatoms_logo">
+              <img src={atoms} width="146px" height="20px" />
+              <p>
+                Launching the Atomic <br />
+                Round!
+              </p>
+            </div>
+            <div className="more_button">
+              <button>
+                Learn More <img src={arrow} />
+              </button>
+            </div>
           </div>
           <div className="section-fourten">
-            <div></div>
+            <div className="user">
+              <a href="#">
+                <img src={userlogo} alt={userlogo} />
+
+                <p>
+                  "Technology does amazing things but it's where technology
+                  meets people-the customer experience-that makes technology
+                  most valuable to us as individuals."-Andy MacMillan, CEO
+                </p>
+              </a>
+            </div>
+            <div className="user_ceo">
+              <a href="#">
+                <img
+                  className="usertest-ceo"
+                  src={user}
+                  alt={user}
+                  width="373px"
+                  height="353px"
+                />
+              </a>
+            </div>
           </div>
           <div className="section-fifeten">
-            <div></div>
+            <div className="drop">
+              <a href="#">
+                <img src={dropcamlogo} alt={dropcamlogo} />
+
+                <p>
+                  "Take your time.Don't ship it before it's ready."-Greg
+                  Duffy,Co-founder & CEO
+                </p>
+              </a>
+            </div>
+            <div className="dropcam">
+              <a href="#">
+                <img
+                  className="drop-ceo"
+                  src={dropcam}
+                  alt={dropcam}
+                  width="373px"
+                  height="280px"
+                />
+              </a>
+            </div>
           </div>
           <div className="section-sixten">
-            <div></div>
+            <div className="sumo">
+              <a href="#">
+                <img
+                  className="sumo-ceo"
+                  src={sumo}
+                  alt={sumo}
+                  width="267px"
+                  height="444px"
+                />
+              </a>
+            </div>
+            <div className="sumologo">
+              <a href="#">
+                <img src={sumologo} alt={sumologo} />
+                <p>
+                  "As you progress in your career and life, you have to realize
+                  that there are certain thing got you to experience success as
+                  an induvial thus far because you are excustion oriented ,but
+                  as you grow into a manager and a leader it's not about you
+                  it's about enabling the team. it shifts from "me" to "we"
+                  .-Ramin Sayar,President & CEO
+                </p>
+              </a>
+            </div>
           </div>
           <div className="section-seventen">
-            <div></div>
+            <div className="cloud">
+              <a href="#">
+                <img src={cloudlogo} alt={cloudlogo} />
+
+                <p>
+                  "Take your time.Don't ship it before it's ready."-Greg
+                  Duffy,Co-founder & CEO
+                </p>
+              </a>
+            </div>
+            <div className="cloudera">
+              <a href="#">
+                <img
+                  className="cloud-ceo"
+                  src={cloud}
+                  alt={cloud}
+                  width="373px"
+                  height="320px"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
