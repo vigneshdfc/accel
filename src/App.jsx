@@ -11,7 +11,7 @@ import RelationshipTemplate from "./pages/relationship/template";
 import Card from "./components/cards/card";
 import Head from "./components/header/header";
 import Hero from "./components/hero/hero";
-import Downbar from "./components/footer";
+import Footer from "./components/footer/footer";
 
 const App = () => {
   return (
@@ -26,8 +26,8 @@ const App = () => {
               <Head />
               <Hero />
               <Card />
-              {/*<Home />
-              <Footer />*/}
+              {/*<Home />*/}
+              <Footer />
             </>
           }
         />
