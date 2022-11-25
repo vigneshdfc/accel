@@ -117,10 +117,6 @@ const Card = () => {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-          <div className="section-four">
-            <div></div>
-=======
           <div classNamebvhg="section-four">
             <div className="segment_ceo">
               <a href="#">
@@ -137,7 +133,6 @@ const Card = () => {
                 </a>
               </div>
             </div>
->>>>>>> 4c571292a4c3933307dc8a9f52b45ee3ed68e50e
           </div>
           <div className="section-five">
             <div className="fbceo">
