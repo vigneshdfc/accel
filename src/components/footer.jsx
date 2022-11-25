@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import w from "../../assets/Icons/w.svg";
+import w from "../assets/Icons/w.svg";
 
 const Footer = () => {
   return (
