@@ -1,4 +1,4 @@
-import password from "../assets/Images/relationship/1Password.svg";
+import password from "../assets/Images/relationship/1password.svg";
 import ada from "../assets/Images/relationship/ada.svg";
 import airbyte from "../assets/Images/relationship/airbyte.png";
 import algolia from "../assets/Images/relationship/algolia.png";
