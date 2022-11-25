@@ -42,10 +42,9 @@ import ironclad from "../../assets/Images/relationship/ironclad.png";
 import klaviyo from "../../assets/Images/relationship/klaviyo.png";
 import kry from "../../assets/Images/relationship/kry.png";
 import lookout from "../../assets/Images/relationship/lookout.png";
-import lydia from "../../assets/Images/relationship/lydia.png";
 import melio from "../../assets/Images/relationship/melio.png";
 import { Link } from "react-router-dom";
-//import mensa from "../../assets/Images/relationship/mensa.jpg";
+import mensa from "../../assets/Images/relationship/mensa.png";
 //import messagebird from "../../assets/Images/relationship/messagebird.png";
 
 const Relationship = () => {
@@ -55,7 +54,7 @@ const Relationship = () => {
       year: "series A 2019",
       owner: "Jeff Shiner (ceo), Roustem Karimov, Dave Teare",
       link: "secure password manager for individuals and businesses",
-      title: "1password",
+      title: "1Password",
     },
     {
       Image: ada,
@@ -118,7 +117,7 @@ const Relationship = () => {
       year: "series B 2021",
       owner: "Conway Teng, Hubert Wong, Mark Schopmeyer",
       link: "Commission Software Automation",
-      title: "captivate",
+      title: "captivate IQ",
     },
     {
       Image: celonis,
@@ -132,7 +131,7 @@ const Relationship = () => {
       year: "series B 2018",
       owner: "Michael Gronagar, Jonathan Levin",
       link: "Blockchain data and analysis",
-      title: "chain",
+      title: "chainanalysis",
     },
     {
       Image: charge,
@@ -168,14 +167,14 @@ const Relationship = () => {
       year: "series A 2021",
       owner: "Jon Lerner, Chandhan Lodha",
       link: "Cryptocurrency PortFolio Tracking and tax reporting tool",
-      title: "cointrack",
+      title: "cointracker",
     },
     {
       Image: commercetools,
       year: "initial growth investment 2021",
       owner: "Dirk Hoerig",
       link: "Cloud Native enterprice commerce platform",
-      title: "commercetools",
+      title: "commercialtools",
     },
     {
       Image: cult,
@@ -253,7 +252,7 @@ const Relationship = () => {
       year: "series B 2017",
       owner: "Global Abel, Mark Myers, Matt Gorniak,Mark Wheeler, Tim Handorf",
       link: "Software Purchasing Platform",
-      tile: "g2",
+      title: "g2",
     },
     {
       Image: goat,
@@ -275,7 +274,7 @@ const Relationship = () => {
       year: "seed 2011",
       owner: "Hiroki Takeuchi, Matt Robinson, Tom Blomfield",
       link: "Recruting payment collection platform for business",
-      title: "gocard",
+      title: "gocardless",
     },
     {
       Image: gopuff,
@@ -303,7 +302,7 @@ const Relationship = () => {
       year: "initial growth investment 2015",
       owner: "David Graff, john wirtz, Brian Kaiser ",
       link: "Video Analysis and coaching tools for sports team",
-      title: "hudi",
+      title: "hudl",
     },
     {
       Image: illumio,
@@ -317,14 +316,14 @@ const Relationship = () => {
       year: "initial growth investment 2015",
       owner: "Clark Valberg, Ben Nadel",
       link: "Digital Project Design, workflow and collaboration Platform",
-      title: "invision",
+      title: "invasion",
     },
     {
       Image: infra,
       year: "seed 2019",
       owner: "Souvik Sengupta, Aaditya Sharda",
       link: "Online Constructions Materials Marketplace",
-      title: "infra",
+      title: "inframarket",
     },
     {
       Image: ironclad,
@@ -355,13 +354,7 @@ const Relationship = () => {
       link: "Mobile CyberSecurity",
       title: "lookout",
     },
-    {
-      Image: lydia,
-      year: "series B 2020",
-      owner: "Antoine porte, Cyril chiche",
-      link: "peer to peer payment platform",
-      title: "lydia",
-    },
+
     {
       Image: melio,
       year: "series B 2020",
@@ -369,13 +362,14 @@ const Relationship = () => {
       link: "b2b payment for small business",
       title: "melio",
     },
-    /*{
+    {
       Image: mensa,
       year: "Seed/series A 2021",
       owner: "Ananth Narayanan",
       link: "Acquires and grows d2c brands",
+      title: "mensa",
     },
-    {
+    /*{
       Image: messagebird,
       year: "series A 2017",
       owner: "Robert Vis, Adrian Mol",

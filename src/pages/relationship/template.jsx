@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./template.css";
-import pasword from "../../assets/Images/relationship/1password.svg";
 import grp from "../../assets/Pictures/password.jpeg";
 import { useParams } from "react-router-dom";
 import { relationshipData } from "../../data/relationship";
@@ -19,7 +18,7 @@ const Pass = () => {
     <div className="pass">
       <div className="text-part">
         <div className="img">
-          <img src={pasword} alt="" width="200px" height="200px" />
+          <img src={data.logo} width="270px" height="140px"></img>
         </div>
         <div className="text">
           <div className="founders">
@@ -40,7 +39,7 @@ const Pass = () => {
       </div>
       <div className="image-part">
         <div className="image">
-          <img src={grp} alt="" />
+          <img src={data.heroImage} alt="" />
         </div>
         <div className="txt">
           {data.description.map((d) => (

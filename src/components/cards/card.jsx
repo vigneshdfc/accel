@@ -96,7 +96,7 @@ const Card = () => {
               </div>
             </div>
           </div>
-          <div classNamebvhg="section-four">
+          <div className="section-four">
             <div></div>
           </div>
           <div className="section-five">

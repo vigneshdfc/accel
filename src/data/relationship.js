@@ -1,8 +1,96 @@
+import password from "../assets/Images/relationship/1Password.svg";
+import ada from "../assets/Images/relationship/ada.svg";
+import airbyte from "../assets/Images/relationship/airbyte.png";
+import algolia from "../assets/Images/relationship/algolia.png";
+import aura from "../assets/Images/relationship/aura.svg";
+import away from "../assets/Images/relationship/away.jpeg";
+import blablacar from "../assets/Images/relationship/blablacar.png";
+import blackbuck from "../assets/Images/relationship/blackbuk.png";
+import browserstack from "../assets/Images/relationship/browserstack.png";
+import captivate from "../assets/Images/relationship/captivate.png";
+import celonis from "../assets/Images/relationship/celonis.png";
+import chain from "../assets/Images/relationship/chain.png";
+import charge from "../assets/Images/relationship/charge.svg";
+import check from "../assets/Images/relationship/check.svg";
+import cognite from "../assets/Images/relationship/cognite.png";
+import cohesity from "../assets/Images/relationship/cohesity.png";
+import cointrack from "../assets/Images/relationship/cointrack.png";
+import commercetools from "../assets/Images/relationship/commercetools.png";
+import cult from "../assets/Images/relationship/cult.png";
+import discord from "../assets/Images/relationship/discord.png";
+import digi from "../assets/Images/relationship/dji.png";
+import doctolib from "../assets/Images/relationship/doctolib.png";
+import drivewelth from "../assets/Images/relationship/drivewelth.png";
+import emeritus from "../assets/Images/relationship/emeritus.png";
+import ethos from "../assets/Images/relationship/ethos.png";
+import falconx from "../assets/Images/relationship/falconx.png";
+import fever from "../assets/Images/relationship/fever.png";
+import g2 from "../assets/Images/relationship/g2.png";
+import gem from "../assets/Images/relationship/gem.svg";
+import goat from "../assets/Images/relationship/goat.png";
+import gocard from "../assets/Images/relationship/gocard.png";
+import gopuff from "../assets/Images/relationship/gopuff.png";
+import hootsuite from "../assets/Images/relationship/hootsuite.png";
+import hopin from "../assets/Images/relationship/hopin.png";
+import hudi from "../assets/Images/relationship/hudi.png";
+import illumio from "../assets/Images/relationship/illumio.png";
+import infra from "../assets/Images/relationship/infra.png";
+import invision from "../assets/Images/relationship/invision.png";
+import ironclad from "../assets/Images/relationship/ironclad.png";
+import klaviyo from "../assets/Images/relationship/klaviyo.png";
+import kry from "../assets/Images/relationship/kry.png";
+import lookout from "../assets/Images/relationship/lookout.png";
+import melio from "../assets/Images/relationship/melio.png";
+import mensa from "../assets/Images/relationship/mensa.png";
+import grp from "../assets/Pictures/password.jpeg";
+import ada1 from "../assets/Pictures/ada.jpeg";
+import airbyte1 from "../assets/Pictures/airbyte.jpeg";
+import algolia1 from "../assets/Pictures/algolia.jpeg";
+import aura1 from "../assets/Pictures/aura.jpeg";
+import away1 from "../assets/Pictures/away.jpeg";
+import blablacar1 from "../assets/Pictures/blablacar.jpeg";
+import blackbuck1 from "../assets/Pictures/blackbuck.jpeg";
+import browser1 from "../assets/Pictures/browser.jpeg";
+import captivate1 from "../assets/Pictures/captivate.png";
+import celonis1 from "../assets/Pictures/celonis.jpeg";
+import chain1 from "../assets/Pictures/chain.jpeg";
+import charge1 from "../assets/Pictures/charge.png";
+import cognite1 from "../assets/Pictures/cognite.jpeg";
+import cohesity1 from "../assets/Pictures/cohesity.png";
+import cointracker1 from "../assets/Pictures/cointracker.png";
+import commerce1 from "../assets/Pictures/commerce.jpeg";
+import cult1 from "../assets/Pictures/cult.png";
+import digi1 from "../assets/Pictures/digi.jpeg";
+import discord1 from "../assets/Pictures/discord.png";
+import doctolib1 from "../assets/Pictures/doctolib.jpeg";
+import drivewealth1 from "../assets/Pictures/drivewealth.png";
+import emeritus1 from "../assets/Pictures/emeritus.png";
+import ethos1 from "../assets/Pictures/ethos.jpeg";
+import falcon1 from "../assets/Pictures/falcon.png";
+import fever1 from "../assets/Pictures/fever.jpeg";
+import g21 from "../assets/Pictures/g2.jpeg";
+import gem1 from "../assets/Pictures/gem.png";
+import goat1 from "../assets/Pictures/goat.jpeg";
+import gocardless1 from "../assets/Pictures/gocardless.jpeg";
+import gopuff1 from "../assets/Pictures/gopuff.png";
+import hootsuite1 from "../assets/Pictures/hootsuite.jpeg";
+import hopin1 from "../assets/Pictures/hopin.jpeg";
+import hudl1 from "../assets/Pictures/hudl.jpeg";
+import illumio1 from "../assets/Pictures/illumio.jpeg";
+import inframarket1 from "../assets/Pictures/inframarket.jpeg";
+import invision1 from "../assets/Pictures/invision.png";
+import ironclad1 from "../assets/Pictures/ironclad.jpeg";
+import klaviyo1 from "../assets/Pictures/klaviyo.jpeg";
+import kry1 from "../assets/Pictures/kry.jpeg";
+import lookout1 from "../assets/Pictures/lookout.png";
+import melio1 from "../assets/Pictures/melio.jpeg";
+import mensa1 from "../assets/Pictures/mensa.jpeg";
+
 export const relationshipData = [
   {
     title: "1Password",
-    logo: "",
-    heroImage: "",
+    logo: password,
+    heroImage: grp,
     description: [
       "1Password provides a place for users — both organizations and individuals — to store passwords and other sensitive information. The company provides a virtual vault, which is itself locked with a master password. Founded in 2006, 1Password didn’t accept outside investment until the Accel-led Series A in 2019.",
     ],
@@ -11,8 +99,8 @@ export const relationshipData = [
   },
   {
     title: "ada",
-    logo: "",
-    heroImage: "",
+    logo: ada,
+    heroImage: ada1,
     description: [
       "Founded in 2016 by Mike Murchison and David Hariri, Ada is an AI-powered CX platform that fuels meaningful interactions between brands and their customers. Digital-first enterprises like Zoom, Square, and Facebook rely on Ada to create hyper-personalized customer experiences at scale, reduce customer effort, and elevate the impact of customer support within their organizations.",
 
@@ -24,8 +112,8 @@ export const relationshipData = [
   },
   {
     title: "airbyte",
-    logo: "",
-    heroImage: "",
+    logo: airbyte,
+    heroImage: airbyte1,
     description: [
       "Airbyte is the open-source data integration alternative running in the safety of your cloud and syncing data from applications, APIs, and databases to data warehouses, lakes, and other destinations. ",
     ],
@@ -34,8 +122,8 @@ export const relationshipData = [
   },
   {
     title: "algolia",
-    logo: "",
-    heroImage: "",
+    logo: algolia,
+    heroImage: algolia1,
     description: [
       "Algolia helps businesses build and optimize the search and discovery experience resulting in significantly enhanced online engagement, increased conversion rates and enriched lifetime value that generates profitable growth.",
     ],
@@ -44,8 +132,8 @@ export const relationshipData = [
   },
   {
     title: "aura",
-    logo: "",
-    heroImage: "",
+    logo: aura,
+    heroImage: aura1,
     description: [
       "Aura is the leader in intelligent safety solutions, providing all-in-one digital protection for consumers. By bringing together security, privacy, and parental controls on an intelligent platform, Aura makes adaptive and proactive digital safety accessible to everyone.",
 
@@ -57,8 +145,8 @@ export const relationshipData = [
   },
   {
     title: "away",
-    logo: "",
-    heroImage: "",
+    logo: away,
+    heroImage: away1,
     description: [
       "Away is a global lifestyle brand with a mission to transform travel through products and content that inspire people to get away more. The company launched with one perfectly designed carry-on and has since expanded to offer an array of luggage and travel essentials built for the modern traveler.",
 
@@ -70,8 +158,8 @@ export const relationshipData = [
   },
   {
     title: "blablacar",
-    logo: "",
-    heroImage: "",
+    logo: blablacar,
+    heroImage: blablacar1,
     description: [
       "As a commuter carpooling platform, Blablacar connects people looking to travel long distances with drivers heading the same way, so they can share the cost. It's designed to create a safe, affordable, convenient, and user-friendly marketplace for shared road mobility. Members of this global, trusted community indicate in their profile how talkative they will be in the car from “Bla” to “BlaBlaBla”, hence the name BlaBlaCar.",
 
@@ -83,8 +171,8 @@ export const relationshipData = [
   },
   {
     title: "blackbuck",
-    logo: "",
-    heroImage: "",
+    logo: blackbuck,
+    heroImage: blackbuck1,
     description: [
       "Founded in 2015, BlackBuck has become India's largest trucking network by redefining the logistics of matching shippers with trucks in an organized and transparent way. The freight and services platforms deliver reliability, efficiency, and a seamless experience – whether it be matching a shipper with a truck, facilitating digital payments, or helping truckers manage their fleet effectively. The unique vertically integrated model is rapidly digitizing the entire online ecosystem of trucking in India.",
 
@@ -96,8 +184,8 @@ export const relationshipData = [
   },
   {
     title: "browserstack",
-    logo: "",
-    heroImage: "",
+    logo: browserstack,
+    heroImage: browser1,
     description: [
       "BrowserStack is a cloud-based automated testing platform, relied upon by developers across the globe. By allowing users to quickly and easily test their mobile and web applications across thousands of devices and desktop browsers, developers can focus on delivering bug-free websites and mobile apps.",
 
@@ -109,8 +197,8 @@ export const relationshipData = [
   },
   {
     title: "captivate IQ",
-    logo: "",
-    heroImage: "",
+    logo: captivate,
+    heroImage: captivate1,
     description: [
       "CaptivateIQ is pioneering the new standard in commission management and enabling companies to reclaim the power of incentives with a platform built for revenue teams.",
     ],
@@ -119,8 +207,8 @@ export const relationshipData = [
   },
   {
     title: "celonis",
-    logo: "",
-    heroImage: "",
+    logo: celonis,
+    heroImage: celonis1,
     description: [
       "Founded in 2011, Celonis has built a Process Mining technology platform that integrates with common enterprise applications such as ERP and CRM to help businesses analyze complex operational processes with the goal of improving their efficiency. Celonis is a global leader in Enterprise Performance Acceleration software, harnessing the power of Process Mining technology to help organizations remove operational friction.",
 
@@ -132,8 +220,8 @@ export const relationshipData = [
   },
   {
     title: "chainanalysis",
-    logo: "",
-    heroImage: "",
+    logo: chain,
+    heroImage: chain1,
     description: [
       "Chainalysis is the blockchain data platform, providing data, software, services, and research to organizations across the public and private sectors. Their data powers investigation, compliance, and market intelligence software that has been used to solve some of the world’s most high-profile criminal cases and build trust in blockchains to promote more financial freedom with less risk.",
 
@@ -145,7 +233,7 @@ export const relationshipData = [
   },
   {
     title: "checkr",
-    logo: "",
+    logo: check,
     heroImage: "",
     description: [
       "Provides tools and solutions to make background checks faster, friendlier, and more transparent. Checkr uses artificial intelligence and machine learning to generate highly accurate and compliant results.",
@@ -158,8 +246,8 @@ export const relationshipData = [
   },
   {
     title: "chargebee",
-    logo: "",
-    heroImage: "",
+    logo: charge,
+    heroImage: charge1,
     description: [
       "Chargebee automates operations for high-growth subscription-based businesses. Its SaaS platform automates operations around subscriptions, billing, invoicing, payments and revenue recognition and it provides key metrics, reports, and insights.",
     ],
@@ -176,8 +264,8 @@ export const relationshipData = [
   },
   {
     title: "cognite",
-    logo: "",
-    heroImage: "",
+    logo: cognite,
+    heroImage: cognite1,
     description: [
       "Cognite is a global industrial software-as-a-service (SaaS) company supporting the full-scale digital data-driven transformation of asset-intensive industries around the world through its industrial data operations and contextualization platform, Cognite Data Fusion (CDF).",
 
@@ -189,8 +277,8 @@ export const relationshipData = [
   },
   {
     title: "cohesity",
-    logo: "",
-    heroImage: "",
+    logo: cohesity,
+    heroImage: cohesity1,
     description: [
       "Cohesity simplifies data management across the data center, edge and cloud. Its suite of services is consolidated on one multi-cloud data platform to reduce complexity and eliminate mass data fragmentation.",
 
@@ -201,9 +289,9 @@ export const relationshipData = [
     partners: ["Eric Wolford"],
   },
   {
-    title: "ada",
-    logo: "",
-    heroImage: "",
+    title: "cointracker",
+    logo: cointrack,
+    heroImage: cointracker1,
     description: [
       "CoinTracker enables seamless cryptocurrency portfolio tracking and tax compliance. As adoption of cryptocurrency continues to pick up, and more exchanges, wallets, and DeFi products are built, CoinTracker will continue to deliver a foundational layer in the ecosystem for tracking and using cryptocurrency.",
 
@@ -215,8 +303,8 @@ export const relationshipData = [
   },
   {
     title: "commercialtools",
-    logo: "",
-    heroImage: "",
+    logo: commercetools,
+    heroImage: commerce1,
     description: [
       "commercetools provides modern technology for B2C and B2B commerce. Its API-first cloud-native commerce platform utilizes microservices to give businesses the flexibility and speed necessary to deliver exceptional digital commerce experiences.",
     ],
@@ -225,8 +313,8 @@ export const relationshipData = [
   },
   {
     title: "cult",
-    logo: "",
-    heroImage: "",
+    logo: cult,
+    heroImage: cult1,
     description: [
       "Cure.fit (Cult.fit) is a holistic integrated healthcare platform headquartered in Bangalore. Cure.fit aims to address preventive healthcare through a combination of engagement, coaching and delivery using a mix of online and offline channels.",
 
@@ -238,8 +326,8 @@ export const relationshipData = [
   },
   {
     title: "digi",
-    logo: "",
-    heroImage: "",
+    logo: digi,
+    heroImage: digi1,
     description: [
       "Headquartered in Shenzhen, China DJI is the world’s leading manufacturer of drones for aerial photography and accounts for over 70% of the global drone market. Founded in 2006 in founder Frank Wang’s university dorm room, the copany now has over 14,000 employees and 17 offices worldwide.",
 
@@ -251,8 +339,8 @@ export const relationshipData = [
   },
   {
     title: "discord",
-    logo: "",
-    heroImage: "",
+    logo: discord,
+    heroImage: discord1,
     description: [
       "Discord is a voice, video, and text app that helps friends and communities come together to hang out and explore their interests - from artists and activists, to study groups, sneakerheads, plant parents, and more. Today, Discord has grown to become one of the most popular communications services in the world.",
 
@@ -264,8 +352,8 @@ export const relationshipData = [
   },
   {
     title: "doctolib",
-    logo: "",
-    heroImage: "",
+    logo: doctolib,
+    heroImage: doctolib1,
     description: [
       "Based in Paris, France, Doctolib is an online booking and practice management system that aims to transform healthcare for both providers and patients. Also offering telemedicine appointments, patients are able to book video consultation with a healthcare professional and get a digital prescription through the platform.",
 
@@ -289,8 +377,8 @@ export const relationshipData = [
   },
   {
     title: "drivewelth",
-    logo: "",
-    heroImage: "",
+    logo: drivewelth,
+    heroImage: drivewealth1,
     description: [
       "DriveWealth, a pioneer of fractional equities trading and embedded investing, is a visionary technology company that empowers more than 100 partners around the world to engage their customers by placing the markets in the palm of their hands. DriveWealth’s consultative support and cloud-based, modern technology platform allow partners to seamlessly offer branded investing experiences to drive customer acquisition, loyalty, retention, and revenue growth.",
     ],
@@ -299,8 +387,8 @@ export const relationshipData = [
   },
   {
     title: "emeritus",
-    logo: "",
-    heroImage: "",
+    logo: emeritus,
+    heroImage: emeritus1,
     description: [
       "Emeritus is committed to teaching the skills of the future by making high-quality education accessible and affordable to individuals, companies, and governments around the world. It does this by collaborating with top-tier universities across the United States, Europe, Latin America, Southeast Asia, India, and China. Emeritus’ short courses, degree programs, professional certificates, and senior executive programs help individuals learn new skills and transform their lives, companies, and organizations.",
 
@@ -312,8 +400,8 @@ export const relationshipData = [
   },
   {
     title: "ethos",
-    logo: "",
-    heroImage: "",
+    logo: ethos,
+    heroImage: ethos1,
     description: [
       "Ethos is modernizing the life insurance process, making getting coverage easy and accessible for millions of families. Using the power of technology and predictive analytics, Ethos breaks down barriers that prevent customers from purchasing life insurance, including underwriting in minutes with no medical exams, blood tests or complex paperwork. Ethos turns a process that used to take weeks into a ten-minute experience for most customers.",
 
@@ -325,8 +413,8 @@ export const relationshipData = [
   },
   {
     title: "falconx",
-    logo: "",
-    heroImage: "",
+    logo: falconx,
+    heroImage: falcon1,
     description: [
       "FalconX is a digital asset trading platform that provides clients fast, secure and reliable execution using data science to eliminate slippage and hidden fees. It allows institutions to access and manage all of their crypto strategies through a single interface and seamless workflows, making it easy to execute trading, credit and clearing all in one place.",
     ],
@@ -335,8 +423,8 @@ export const relationshipData = [
   },
   {
     title: "fever",
-    logo: "",
-    heroImage: "",
+    logo: fever,
+    heroImage: fever1,
     description: [
       "Fever is the leading global tech-enabled entertainment discovery platform with a clear mission: to inspire through live entertainment. Through its platform, Fever inspires its community to enjoy unique local experiences and events, from immersive art exhibitions, interactive theatrical experiences, festivals, and classical music concerts to molecular cocktail pop-ups while empowering creators with data and technology to create and expand experiences across the world.",
     ],
@@ -353,8 +441,8 @@ export const relationshipData = [
   },
   {
     title: "g2",
-    logo: "",
-    heroImage: "",
+    logo: g2,
+    heroImage: g21,
     description: [
       "G2 is the world’s largest and most trusted software marketplace, helping more than 60 million people every year make smarter software decisions based on authentic peer reviews. Thousands of companies partner with G2 to build their reputation, manage their software spend, and grow their business.",
 
@@ -376,8 +464,8 @@ export const relationshipData = [
   },
   {
     title: "goat",
-    logo: "",
-    heroImage: "",
+    logo: goat,
+    heroImage: goat1,
     description: [
       "GOAT is the global platform for the greatest products from the past, present and future. Since its founding in 2015, GOAT has become the leading and most trusted sneaker marketplace in the world, and has expanded to offer apparel and accessories from select emerging, contemporary and iconic brands. Through its unique positioning between the primary and resale markets, the company offers styles across various time periods on its digital platforms and in its retail locations, while delivering products to members globally.",
 
@@ -389,8 +477,8 @@ export const relationshipData = [
   },
   {
     title: "gem",
-    logo: "",
-    heroImage: "",
+    logo: gem,
+    heroImage: gem1,
     description: [
       "Gem’s modern recruiting solution empowers talent acquisition teams to build and nurture comprehensive networks of talent, optimize sourcing efforts, and uncover insights to plan ahead and inform smarter, data-driven decision making.",
 
@@ -402,8 +490,8 @@ export const relationshipData = [
   },
   {
     title: "gocardless",
-    logo: "",
-    heroImage: "",
+    logo: gocard,
+    heroImage: gocardless1,
     description: [
       "GoCardless is a global leader in account-to-account payments, making it easy to collect both recurring and one-off payments directly from customers' bank accounts. The GoCardless global payments network and technology platform takes the pain out of getting paid for businesses worldwide, from multinational corporations to small businesses. GoCardless is headquartered in the UK, with additional offices in Australia, France, Germany and the United States.",
 
@@ -415,8 +503,8 @@ export const relationshipData = [
   },
   {
     title: "gopuff",
-    logo: "",
-    heroImage: "",
+    logo: gopuff,
+    heroImage: gopuff1,
     description: [
       "Gopuff is an on-demand solution for immediate everyday needs, fulfilling customer orders of cleaning and home products, beauty, baby items and pet products, food and drinks, quick meals, and in some markets, alcohol delivery—in just minutes. With micro-fulfillment centers in every market it serves, the company delivers thousands of products quickly for a flat delivery charge. Gopuff is open 24/7 in many markets and late night everywhere else to bring customers what they need, when they need it most.",
 
@@ -427,8 +515,8 @@ export const relationshipData = [
   },
   {
     title: "hootsuite",
-    logo: "",
-    heroImage: "",
+    logo: hootsuite,
+    heroImage: hootsuite1,
     description: [
       "Hootsuite is the global leader in social media management. Through expertise in social insights, employee advocacy, and social customer care, Hootsuite empowers organizations to strategically grow their brands and customer relationships.",
     ],
@@ -438,8 +526,8 @@ export const relationshipData = [
   },
   {
     title: "hopin",
-    logo: "",
-    heroImage: "",
+    logo: hopin,
+    heroImage: hopin1,
     description: [
       "Hopin enables brands and communities to create live virtual and hybrid events that are interactive and immersive. Through its platforms, attendees can learn, interact, and connect with people from anywhere in the world.",
     ],
@@ -448,8 +536,8 @@ export const relationshipData = [
   },
   {
     title: "hudl",
-    logo: "",
-    heroImage: "",
+    logo: hudi,
+    heroImage: hudl1,
     description: [
       "Hudl is changing the future of sports technology. Hudl creates software to help coaches win, athletes look like pros, and recruiters find more talent. Hudl provides coaches, athletes, trainers and analysts the insight they need to win at every level of competition.",
     ],
@@ -458,8 +546,8 @@ export const relationshipData = [
   },
   {
     title: "illumino",
-    logo: "",
-    heroImage: "",
+    logo: illumio,
+    heroImage: illumio1,
     description: [
       "Illumio helps modern organizations to strengthen their cyber resilience and reduce risk by enabling them to see their risk, isolate their breaches, and secure their data across cloud-native apps, hybrid and multi-clouds, data centers, and endpoints.",
 
@@ -471,8 +559,8 @@ export const relationshipData = [
   },
   {
     title: "invasion",
-    logo: "",
-    heroImage: "",
+    logo: invision,
+    heroImage: invision1,
     description: [
       "InVision is a visual collaboration platform powering the world’s smartest companies.People across global enterprises and small teams use InVision to transform the way they work together.",
     ],
@@ -481,8 +569,8 @@ export const relationshipData = [
   },
   {
     title: "inframarket",
-    logo: "",
-    heroImage: "",
+    logo: infra,
+    heroImage: inframarket1,
     description: [
       "Infra.Market is an India-based technology changing the way construction and real estate companies procure material for their projects.",
     ],
@@ -491,8 +579,8 @@ export const relationshipData = [
   },
   {
     title: "ironclad",
-    logo: "",
-    heroImage: "",
+    logo: ironclad,
+    heroImage: ironclad1,
     description: [
       "Ironclad is a digital contracting platform used by L’Oréal, Staples, Mastercard, and other leading innovators to collaborate and negotiate on contracts, accelerate contracting while maintaining compliance, and turn contracts into critical carriers of operational business intelligence. It’s the only platform flexible enough to handle every type of contract workflow, whether a sales agreement, an HR agreement or a complex NDA.",
 
@@ -504,8 +592,8 @@ export const relationshipData = [
   },
   {
     title: "kry",
-    logo: "",
-    heroImage: "",
+    logo: kry,
+    heroImage: kry1,
     description: [
       "Headquartered in Stockholm, Sweden and operating in several European countries, KRY is committed to making healthcare more accessible and convenient. Since being founded in 2014, the innovative platform has helped over half a million patients consult a qualified health professional virtually through the KRY app.",
 
@@ -525,8 +613,8 @@ export const relationshipData = [
   },
   {
     title: "klaviyo",
-    logo: "",
-    heroImage: "",
+    logo: klaviyo,
+    heroImage: klaviyo1,
     description: [
       "Klaviyo’s customer data and marketing automation platform helps brands of all sizes create personalized experiences for their customers at scale to grow revenue faster.",
 
@@ -535,5 +623,38 @@ export const relationshipData = [
     ],
     founders: ["Andrew Bialecki", "Ed Hallen"],
     partners: ["Ping Li", "Ethan Choi"],
+  },
+  {
+    title: "lookout",
+    logo: lookout,
+    heroImage: lookout1,
+    description: [
+      "Lookout is an integrated endpoint-to-cloud security company that enables consumers and employees to protect their data, and to securely stay connected without violating their privacy and trust.",
+    ],
+    founders: ["Jim Dolce (CEO)", "John Hering", "Kevin Mahaffey"],
+    partners: ["Ping Li"],
+  },
+  {
+    title: "mensa",
+    logo: mensa,
+    heroImage: mensa1,
+    description: [
+      "Mensa scales global digital-first brands leveraging its expertise in eCommerce, technology, marketing, category management & demand planning. Mensa’s aim is to take brands global and drive their D2C sales.",
+    ],
+    founders: ["Matan Bar", "Ilan Atias", "Ziv Paz"],
+    partners: ["Philippe Botteri", "Julien Bek", "Will Sheldon"],
+  },
+  {
+    title: "melio",
+    logo: melio,
+    heroImage: melio1,
+    description: [
+      "Melio is a B2B payments platform that helps small businesses improve their cash flow and workflow, gain more control over their finances, and optimize their business's financial health.",
+
+      "America’s small businesses drive innovation and competitiveness and are a critical pillar of the economy, but they have been the most underserved by the financial tech sector, especially when it comes to payments. That is what inspired us to create Melio, an accounts payable solution that is tailor-made for small businesses. It is free, simple, and secure, allowing small businesses and their suppliers to transfer and receive payments quickly and easily so they can successfully run and grow their businesses. ",
+      "Matan Bar, Co-Founder & CEO",
+    ],
+    founders: ["Matan Bar", "Ilan Atias", "Ziv Paz"],
+    partners: ["Philippe Botteri", "Julien Bek", "Will Sheldon"],
   },
 ];
