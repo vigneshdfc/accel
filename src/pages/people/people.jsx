@@ -18,24 +18,13 @@ const People = () => {
           </div>
         </div>
         <div className="people_areas">
-          <ul>
-            <li>
-              <a href="#">GLOBAL</a>
-            </li>
-            <li>
-              <a href="#">BAY AREA</a>
-            </li>
-            <li>
-              <a href="#">LONDON</a>
-            </li>
-            <li>
-              <a href="#">BANGALOUR</a>
-            </li>
-            <li>
-              <a href="#">EMIRITUS</a>
-            </li>
-          </ul>
+          <a href="#">GLOBAL</a>
+          <a href="#">BAY AREA</a>
+          <a href="#">LONDON</a>
+          <a href="#">BANGALORE</a>
+          <a href="#">EMIRITUS</a>
         </div>
+        <div className=""></div>
       </div>
     </>
   );
