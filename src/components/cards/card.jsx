@@ -5,6 +5,7 @@ import arrow from "../../assets/Images/icons/purplearrow.png";
 import seed from "../../assets/Images/people/seed.svg";
 import Slider from "react-slick";
 import slack from "../../assets/Images/people/slackceo.jpg";
+import crowdlogo from "../../assets/Images/people/crowdstrike.png";
 import slacklogo from "../../assets/Images/people/slacklogo.svg";
 import segmentceo from "../../assets/Images/people/segmentceo.jpeg";
 import segmentlogo from "../../assets/Images/people/segmentlogo.png";
@@ -59,6 +60,21 @@ const Card = () => {
             >
               <div>
                 <img src={blur} height="433px" width="100%" />
+              </div>
+              <div className="crowdslider">
+                <Slider {...settings}>
+                  <div className="crowd-car">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </Slider>
+              </div>
+              <div className="crowdlogo">
+                <img src={crowdlogo} width="143px" height="25px" />
+                <p>"Fail fast;evolve faster."-George Kurtz,co-founder& CEO</p>
               </div>
             </div>
           </div>

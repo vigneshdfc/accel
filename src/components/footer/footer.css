@@ -1,8 +1,9 @@
 .footer {
-  z-index: 3000;
   padding: 3.571vw 7.143vw 3.571vw 10.714vw;
   background-color: #270157;
   display: flex;
+  width: 100%;
+  position: relative;
   justify-content: space-between;
 }
 .footer a {
@@ -15,7 +16,6 @@
   color: aqua;
 }
 .down-bar {
-  z-index: 3000;
   padding: 3.571vw 7.143vw 3.571vw 10.714vw;
   background-color: #270157;
 }
