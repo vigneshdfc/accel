@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.people {
+  margin-left: 160px;
+}
+.people_main {
+  padding: 220px 100px 180px 140px;
+  border-radius: 0 0 0 20px;
+  background-color: #270157;
+  margin-bottom: 10px;
+}
+.people_info h1 {
+  color: white;
+}
+.people_info p {
+  color: white;
+  font-size: 20px;
+  padding: 30px 30px 50px 0;
+}
+.input_member input {
+  outline: none;
+  border: 1px solid white;
+  background-color: #d8d6db00;
+  color: white;
+  padding: 28px 256px 28px 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.people_areas ul {
+  padding-top: 40px;
+  color: #0d1824;
+  font-size: 19px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}

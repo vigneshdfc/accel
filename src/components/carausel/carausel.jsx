@@ -1,37 +1,37 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./carausel.css";
-import password from "../../assets/Images/relationship/1password.svg";
-import acho from "../../assets/Images/relationship/acho.png";
-import ada from "../../assets/Images/relationship/ada.svg";
-import airbyte from "../../assets/Images/relationship/airbyte.png";
-import algolia from "../../assets/Images/relationship/algolia.png";
-import aura from "../../assets/Images/relationship/aura.svg";
-import away from "../../assets/Images/relationship/away.jpeg";
-import blablacar from "../../assets/Images/relationship/blablacar.png";
-import blackbuk from "../../assets/Images/relationship/blackbuk.png";
-import browserstack from "../../assets/Images/relationship/away.jpeg";
-import captivate from "../../assets/Images/relationship/away.jpeg";
-import celonis from "../../assets/Images/relationship/celonis.png";
-import chain from "../../assets/Images/relationship/chain.png";
-import charge from "../../assets/Images/relationship/charge.svg";
-import check from "../../assets/Images/relationship/check.svg";
-import cognite from "../../assets/Images/relationship/cognite.png";
-import cohesity from "../../assets/Images/relationship/cohesity.png";
-import cointrack from "../../assets/Images/relationship/cointrack.png";
-import commercetools from "../../assets/Images/relationship/commercetools.png";
-import cult from "../../assets/Images/relationship/cult.png";
-import discord from "../../assets/Images/relationship/discord.png";
-import dji from "../../assets/Images/relationship/dji.png";
-import doctolib from "../../assets/Images/relationship/doctolib.png";
-import drivewelth from "../../assets/Images/relationship/drivewelth.png";
-import emeritus from "../../assets/Images/relationship/emeritus.png";
-import ethos from "../../assets/Images/relationship/ethos.png";
-import falconx from "../../assets/Images/relationship/falconx.png";
-import fever from "../../assets/Images/relationship/fever.png";
-import g2 from "../../assets/Images/relationship/g2.png";
-import gem from "../../assets/Images/relationship/gem.svg";
-import goat from "../../assets/Images/relationship/goat.png";
+import airbyte from "../../assets/Icons/airbyte.png";
+import chain from "../../assets/Icons/chain.png";
+import cognite from "../../assets/Icons/cognite.png";
+import falcon from "../../assets/Icons/Falcon.png";
+import goat from "../../assets/Icons/goat.png";
+import hopin from "../../assets/Icons/hopin.png";
+import infra from "../../assets/Icons/infra-market.png";
+import kry from "../../assets/Icons/kry.png";
+import lydia from "../../assets/Icons/lydia.png";
+import meglix from "../../assets/Icons/meglix.png";
+import mensa from "../../assets/Icons/mensa.png";
+import mindtickle from "../../assets/Icons/mindtickle.png";
+import misfit from "../../assets/Icons/misfits.png";
+import monte from "../../assets/Icons/monte-carlo.png";
+import netskope from "../../assets/Icons/netskope.png";
+import nuvemshop from "../../assets/Icons/nuvemshop.png";
+import payit from "../../assets/Icons/payit.png";
+import sennder from "../../assets/Icons/sennder.png";
+import sentry from "../../assets/Icons/sentry.png";
+import skydio from "../../assets/Icons/skydio.png";
+import snorkel from "../../assets/Icons/snorkel.png";
+import snyl from "../../assets/Icons/snyl.png";
+import source from "../../assets/Icons/socure.png";
+import sysdig from "../../assets/Icons/sysdig.png";
+import trader from "../../assets/Icons/traderepublic.png";
+import unit from "../../assets/Icons/unit.png";
+import urban from "../../assets/Icons/urban-company.png";
+import vercel from "../../assets/Icons/vercel.png";
+import w from "../../assets/Icons/w.svg";
+import wonder from "../../assets/Icons/wonder.png";
+/*import goat from "../../assets/Images/relationship/goat.png";
 import gocard from "../../assets/Images/relationship/gocard.png";
 import gopuff from "../../assets/Images/relationship/gopuff.png";
 import hootsuite from "../../assets/Images/relationship/hootsuite.png";
@@ -45,7 +45,7 @@ import klaviyo from "../../assets/Images/relationship/klaviyo.png";
 import kry from "../../assets/Images/relationship/kry.png";
 import lookout from "../../assets/Images/relationship/lookout.png";
 import lydia from "../../assets/Images/relationship/lydia.png";
-import melio from "../../assets/Images/relationship/melio.png";
+import melio from "../../assets/Images/relationship/melio.png";*/
 
 const SimpleSlider = () => {
   const settings = {
@@ -63,155 +63,155 @@ const SimpleSlider = () => {
       <Slider {...settings}>
         <div>
           <a href="#">
-            <img src={password} width="auto" height="20px" />{" "}
+            <img src={falcon} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={acho} width="auto" height="20px" />
+            <img src={goat} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={ada} width="auto" height="20px" />
+            <img src={hopin} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={airbyte} width="auto" height="20px" />
+            <img src={airbyte} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={algolia} width="auto" height="20px" />
+            <img src={infra} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={aura} width="auto" height="20px" />
+            <img src={kry} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={away} width="auto" height="20px" />
+            <img src={lydia} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={blablacar} width="auto" height="20px" />
+            <img src={meglix} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={blackbuk} width="auto" height="20px" />
+            <img src={mensa} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={browserstack} width="auto" height="20px" />
+            <img src={mindtickle} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={captivate} width="auto" height="20px" />
+            <img src={misfit} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={celonis} width="auto" height="20px" />
+            <img src={monte} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={chain} width="auto" height="20px" />
+            <img src={chain} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={charge} width="auto" height="20px" />
+            <img src={netskope} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={check} width="auto" height="20px" />
+            <img src={nuvemshop} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={cognite} width="auto" height="20px" />
+            <img src={payit} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={cohesity} width="auto" height="20px" />
+            <img src={sennder} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={cointrack} width="auto" height="20px" />
+            <img src={sentry} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={commercetools} width="auto" height="20px" />
+            <img src={skydio} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={cult} width="auto" height="20px" />
+            <img src={snorkel} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={discord} width="auto" height="20px" />
+            <img src={snyl} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={dji} width="auto" height="20px" />
+            <img src={source} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={doctolib} width="auto" height="20px" />
+            <img src={sysdig} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={drivewelth} width="auto" height="20px" />
+            <img src={trader} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={emeritus} width="auto" height="20px" />
+            <img src={unit} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={falconx} width="auto" height="20px" />
+            <img src={cognite} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={fever} width="auto" height="20px" />
+            <img src={urban} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={g2} width="auto" height="20px" />
+            <img src={vercel} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={gem} width="auto" height="20px" />
+            <img src={w} width="auto" height="45px" />
           </a>
         </div>
         <div>
           <a href="#">
-            <img src={goat} width="auto" height="20px" />
+            <img src={wonder} width="auto" height="45px" />
           </a>
         </div>
-        <div>
+        {/*<div>
           <a href="#">
             <img src={gocard} width="auto" height="20px" />
           </a>
@@ -280,7 +280,7 @@ const SimpleSlider = () => {
           <a href="#">
             <img src={melio} width="auto" height="20px" />
           </a>
-        </div>
+        </div>*/}
       </Slider>
     </div>
   );

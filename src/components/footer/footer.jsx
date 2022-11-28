@@ -1,13 +1,14 @@
 import React from "react";
 import "./footer.css";
-import w from "../assets/Icons/w.svg";
+import { Link } from "react-router-dom";
+import w from "../../assets/Icons/w.svg";
 
-const Downbar = () => {
+const Footer = () => {
   return (
     <div className="down-bar">
       <div className="footer">
-        <a href="#">Relationship</a>
-        <a href="#">People</a>
+        <Link to="/relationship">Relationship</Link>
+        <Link to="/people">People</Link>
         <a href="#">NoteWorthy</a>
         <a href="#">Jobs</a>
         <a href="#">connect</a>
@@ -30,4 +31,4 @@ const Downbar = () => {
     </div>
   );
 };
-export default Downbar;
+export default Footer;

@@ -13,11 +13,22 @@
 }
 .ceo img {
   max-width: 100%;
+  /* transition: transform 0.2s; */
 }
+/* .ceo img:hover {
+  transform: scale(0.9);
+} */
 .section-one {
   grid-area: sone;
   margin: 8px;
 }
+.crowdlogo p {
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  border-top: 1px solid white;
+}
+
 .section-two {
   grid-area: stwo;
   margin: 10px;
@@ -47,7 +58,6 @@
 .note-wrap a {
   text-decoration: none;
 }
-
 .section-two h3 {
   color: #ee495f;
   font-size: 30px;
@@ -79,13 +89,18 @@
   background-color: #4a154b;
   padding: 60px;
 }
+.slack_ceo img {
+  transition: transform 0.2s;
+}
+.slack_ceo img:hover {
+  transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(1deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 1;
+}
 .slack_ceo {
   position: relative;
   height: 100%;
-}
-.slack_ceo img {
-  width: 100%;
-  height: auto;
 }
 .slack_ceo a {
   text-decoration: none;
@@ -142,7 +157,6 @@
   height: 100%;
   width: 50%;
   background-color: #347aea;
-
   padding: 60px;
   object-fit: cover;
 }
@@ -152,7 +166,6 @@
 }
 .facebook a {
   color: white;
-
   text-decoration: none;
 }
 .facebook p {
@@ -228,7 +241,6 @@ a {
   margin-top: 10px;
   padding: 60px;
 }
-
 .seed {
   display: flex;
   flex-direction: row;
@@ -279,11 +291,11 @@ a {
   margin-top: 6px;
   flex-direction: row;
 }
-
 .etsy {
   background-color: rgb(241, 102, 30);
   padding: 40px;
 }
+
 .etsy p {
   color: white;
   font-size: 16px;
@@ -339,16 +351,90 @@ button img {
 }
 .section-thirten {
   grid-area: sthirten;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 60px;
+  align-items: center;
+  padding: 80px;
+  margin-top: 10px;
+  background-color: #f0f4fb;
+}
+.accelatoms_logo img {
+  margin-bottom: 20px;
+}
+.more_button button {
+  border: 2px solid #5101a0;
+  background: transparent;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 6px 12px 6px 12px;
+  align-items: center;
+  color: #5101a0;
 }
 .section-fourten {
   grid-area: sfourten;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.user p {
+  color: white;
+  font-size: 15px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+.user {
+  padding: 60px;
+  background-color: rgb(49, 92, 253);
 }
 .section-fifeten {
   grid-area: sfifeten;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+}
+.drop {
+  padding: 60px;
+  background-color: rgb(3, 174, 236);
+}
+.drop p {
+  color: white;
+  font-size: 15px;
+  border-top: 1px solid white;
+  padding-top: 10px;
 }
 .section-sixten {
   grid-area: ssixten;
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+.sumologo {
+  background-color: #0047be;
+  padding: 70px;
+}
+.sumologo p {
+  color: white;
+  font-size: 18px;
+  border-top: 1px solid white;
+  padding-top: 10px;
 }
 .section-seventen {
   grid-area: sseventen;
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+}
+.cloud {
+  padding: 70px;
+  background-color: rgb(240, 137, 51);
+}
+.cloud p {
+  color: white;
+
+  font-size: 18px;
+  border-top: 1px solid white;
+  padding-top: 10px;
 }
