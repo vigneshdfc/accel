@@ -26,8 +26,6 @@ const Home = () => {
         <Relationship />
         <Pass />
   </UserContext.Provider>*/}
-      <People />
-      <Footer />
     </>
   );
 };
