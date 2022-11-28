@@ -25,7 +25,7 @@ const App = () => {
               <Head />
               <Hero />
               <Card />
-              {/*<Home />*/}
+              <Home />
             </>
           }
         />
