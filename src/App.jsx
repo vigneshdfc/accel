@@ -19,12 +19,10 @@ import Recent from "./pages/noteworthy/recent";
 const App = () => {
   return (
     <div>
-      {/* <SimpleSlider />
-     
+      <SimpleSlider />
       <Head />
       <Hero />
       <Card />
-      */}
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />

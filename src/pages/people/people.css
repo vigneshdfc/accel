@@ -10,12 +10,16 @@ a {
   margin-left: 160px;
 }
 .people_main {
-  padding: 220px 100px 180px 140px;
-  border-radius: 0 0 0 20px;
+  padding: 14.286vw 7.143vw 3.571vw 10.714vw;
+  border-bottom-left-radius: 1.786vw;
   background-color: #270157;
-  margin-bottom: 10px;
 }
 .people_info h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 68px;
+  line-height: 104%;
   color: white;
 }
 .people_info p {
@@ -34,10 +38,12 @@ a {
   font-size: 12px;
   text-transform: uppercase;
 }
-.people_areas ul {
-  padding-top: 40px;
-  color: #0d1824;
-  font-size: 19px;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+.people_areas a {
+  color: black;
+}
+.people_areas {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
