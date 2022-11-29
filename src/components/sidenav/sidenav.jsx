@@ -5,11 +5,39 @@ import logo from "../../assets/Images/icons/accel.svg";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
-  const [open, setOpen] = useState(false);
+  const [sidebarIsOn, setSidebarState] = useState(false);
+
+  const hamburger = (
+    <img
+      src={menu}
+      onClick={(e) => {
+        e.preventDefault();
+        setSidebarState(true);
+      }}
+    />
+  );
+
+  const Sidebar = (
+    <div className="sidebar">
+      <div className="sidebar_menu">
+        <Link to="#">
+          <h2>Relationship</h2>
+        </Link>
+        <b
+          onClick={(e) => {
+            e.preventDefault();
+            setSidebarState(false);
+          }}
+        >
+          close
+        </b>
+      </div>
+    </div>
+  );
   return (
     <div className="navbar">
-      <div className="menu" open={open} onClick={() => setOpen(!open)}>
-        <img src={menu} alt="menu" width="24px" height="25px" />
+      <div className="menu">
+        {hamburger} {sidebarIsOn && Sidebar}
       </div>
       <div className="logo">
         <Link to="/">

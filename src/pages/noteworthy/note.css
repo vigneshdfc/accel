@@ -6,13 +6,21 @@
 .noteworth {
   margin-left: 160px;
   box-sizing: border-box;
-  background-color: #f0f4fb;
+
   padding: 88px 84px 88px 84px;
   width: 26%;
   height: 100%;
+  color: #0d1824;
+}
+.noteworthy_grid {
   display: flex;
   flex-direction: row;
-  color: #0d1824;
+  margin-left: 160px;
+}
+.sidenav_note {
+  padding: 90px;
+  background-color: #f0f4fb;
+  border-radius: 0 0 0 20px;
 }
 .sidenav_note h1 {
   font-size: 40px;
@@ -23,21 +31,118 @@
   padding: 30px 60px 10px 10px;
   font-size: 20px;
   list-style-type: none;
+  color: #0d1824;
 }
 .sidenav_note ul li {
   color: #0d1824;
 }
-
+.grid_note_two {
+  padding: 5px;
+}
+.grid_note_three {
+  padding: 5px;
+}
+.grid_note_four {
+  padding: 8px;
+}
+.grid_note_five {
+  padding: 5px;
+}
+.grid_note_six {
+  padding: 5px 5px 0 5px;
+}
+.well_theory {
+  background-color: #f0f4fb;
+  padding: 30px 50px 54px 50px;
+}
+.well_theory h4 {
+  color: #0d1824;
+  padding-bottom: 25px;
+}
+.right_arrow img {
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: 2px solid #0d1824;
+  background: transparent;
+  padding: 5px;
+  border-radius: 10px;
+}
+.well_theory b {
+  font-size: 14px;
+  color: #0d1824;
+}
 .sidenav_note li:hover {
   border-bottom: 2px solid #0d1824;
   color: #0d1824;
 }
-.noteworthy_grid {
-  margin-left: 520px;
+.fintech_note {
   display: grid;
   grid-gap: 10px;
-
   top: 0%;
   bottom: 0;
   grid-template-columns: 1fr 1fr;
+}
+.note_worth {
+  display: flex;
+  flex-direction: row;
+  /*margin-left: 160px;*/
+}
+.akto_ceo_note {
+  display: flex;
+  flex-direction: row;
+}
+.akto_note {
+  background-color: #8cfff8;
+  padding: 50px;
+  width: 60%;
+  height: 340px;
+}
+.akto_note h4 {
+  color: #0d1824;
+  font-size: 18px;
+  line-height: 160%;
+}
+.akto_note p {
+  color: #0d1824;
+  font-size: 18px;
+  line-height: 160%;
+}
+.note_worth_two {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 160px;*/
+}
+.mergo_note {
+  background-color: #ffd66c;
+  padding: 50px;
+  width: 100%;
+  height: 340px;
+}
+.mergo_note p {
+  color: #0d1824;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+}
+.mergo_note h4 {
+  color: #0d1824;
+  font-size: 18px;
+  line-height: 160%;
+  padding-bottom: 10px;
+}
+.euro {
+  padding: 72px;
+  background-color: #feb9a3;
+}
+.euro b {
+  font-size: 18px;
+  color: #0d1824;
+}
+.more_note {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 20px;
 }

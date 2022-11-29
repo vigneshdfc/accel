@@ -15,14 +15,18 @@ import Footer from "./components/footer/footer";
 import People from "./pages/people/people";
 import Noteworthy from "./pages/noteworthy/note";
 import Recent from "./pages/noteworthy/recent";
+import Topics from "./pages/noteworthy/topics";
+import Navbar from "./components/nav/nav";
 
 const App = () => {
   return (
     <div>
-      <SimpleSlider />
+      {/* <SimpleSlider />
       <Head />
       <Hero />
-      <Card />
+  <Card />
+  
+  <Navbar />*/}
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,6 +35,7 @@ const App = () => {
         <Route path="/people" element={<People />} />
         <Route path="/noteworthy" element={<Noteworthy />} />
         <Route path="/news" element={<Recent />} />
+        <Route path="/noteworthy-topics" element={<Topics />} />
       </Routes>
       <Footer />
     </div>

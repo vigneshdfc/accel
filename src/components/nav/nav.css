@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+.nav_logo {
+  padding: 20px;
+}
+.devalley img {
+  padding-top: 150px;
+  transition: rotate(-95deg);
+}
+.menu_nav {
+  padding: 30px;
+}
