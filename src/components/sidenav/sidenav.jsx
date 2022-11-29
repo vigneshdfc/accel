@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./sidenav.css";
 import menu from "../../assets/Images/icons/menu.ico";
 import logo from "../../assets/Images/icons/accel.svg";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
@@ -11,7 +12,9 @@ const Sidebar = () => {
         <img src={menu} alt="menu" width="24px" height="25px" />
       </div>
       <div className="logo">
-        <img src={logo} alt="logo" width="80px" height="230px" />
+        <Link to="/">
+          <img src={logo} alt="logo" width="80px" height="230px" />
+        </Link>
       </div>
     </div>
   );

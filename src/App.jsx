@@ -13,6 +13,8 @@ import Head from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Footer from "./components/footer/footer";
 import People from "./pages/people/people";
+import Noteworthy from "./pages/noteworthy/note";
+import Recent from "./pages/noteworthy/recent";
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
         <Route path="/relationship" element={<Relationship />} />
         <Route path="/relationship/:id" element={<RelationshipTemplate />} />
         <Route path="/people" element={<People />} />
+        <Route path="/noteworthy" element={<Noteworthy />} />
+        <Route path="/news" element={<Recent />} />
       </Routes>
       <Footer />
     </div>

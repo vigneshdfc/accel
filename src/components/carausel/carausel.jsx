@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "./carausel.css";
 import airbyte from "../../assets/Icons/airbyte.png";
 import chain from "../../assets/Icons/chain.png";
-import cognite from "../../assets/Icons/cognite.png";
+import cognite from "../../assets/Icons/Cognite.png";
 import falcon from "../../assets/Icons/Falcon.png";
 import goat from "../../assets/Icons/goat.png";
 import hopin from "../../assets/Icons/hopin.png";

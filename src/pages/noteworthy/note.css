@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.noteworth {
+  margin-left: 160px;
+  box-sizing: border-box;
+  background-color: #f0f4fb;
+  padding: 88px 84px 88px 84px;
+  width: 26%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #0d1824;
+}
+.sidenav_note h1 {
+  font-size: 40px;
+  color: #0d1824;
+  padding-bottom: 30px;
+}
+.sidenav_note li {
+  padding: 30px 60px 10px 10px;
+  font-size: 20px;
+  list-style-type: none;
+}
+.sidenav_note ul li {
+  color: #0d1824;
+}
+
+.sidenav_note li:hover {
+  border-bottom: 2px solid #0d1824;
+  color: #0d1824;
+}
+.noteworthy_grid {
+  margin-left: 520px;
+  display: grid;
+  grid-gap: 10px;
+
+  top: 0%;
+  bottom: 0;
+  grid-template-columns: 1fr 1fr;
+}
