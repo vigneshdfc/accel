@@ -27,7 +27,6 @@ const Home = () => {
         <Pass />
   </UserContext.Provider>*/}
       <People />
-      <Footer />
     </>
   );
 };
