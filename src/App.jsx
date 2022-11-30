@@ -24,9 +24,10 @@ const App = () => {
       {/* <SimpleSlider />
       <Head />
       <Hero />
-  <Card />
-  <Navbar />*/}
+      <Card />
       <Sidebar />
+ */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/relationship" element={<Relationship />} />
