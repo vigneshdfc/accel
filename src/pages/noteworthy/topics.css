@@ -3,3 +3,54 @@
   margin: 0;
   padding: 0;
 }
+.sidenav_topics {
+  padding: 90px;
+  background-color: #f0f4fb;
+  border-radius: 0 0 0 20px;
+}
+.note_topic {
+  display: flex;
+  flex-direction: row;
+  margin-left: 160px;
+}
+
+.sidenav_topics h1 {
+  font-size: 40px;
+  color: #0d1824;
+  padding-bottom: 30px;
+}
+.sidenav_topics li {
+  padding: 30px 60px 10px 10px;
+  font-size: 20px;
+  list-style-type: none;
+  color: #0d1824;
+}
+.topics_person {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f0f4fb;
+  gap: 10px;
+}
+.topics_person h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.topics_person b {
+  font-size: 13px;
+  line-height: 160%;
+}
+.topic_one {
+  color: #0d1824;
+  width: 470px;
+  padding: 50px;
+  background-color: white;
+}
+
+.more_note {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 20px;
+}
