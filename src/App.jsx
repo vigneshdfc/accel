@@ -25,7 +25,6 @@ const App = () => {
       <Head />
       <Hero />
   <Card />
-  
   <Navbar />*/}
       <Sidebar />
       <Routes>

@@ -36,21 +36,19 @@ const People = () => {
           {peopleData.map((people, i) => (
             <div className="grid-1">
               <div className="people-img">
-                <img src={casey} alt="" />
+                <img src={people.Image} />
               </div>
               <div className="place">
-                {people.Name.map((n) => (
-                  <h5>{n}</h5>
-                ))}
-                <h4> Bay Area</h4>
+                <h4>{people.Name}</h4>
+                <h5>{people.Area}</h5>
               </div>
               <div className="languages">
-                <h3>Cloud/Saas</h3>
-                <h3> Security</h3>
+                <h3>{people.lang}</h3>
+                <h4> {people.media}</h4>
               </div>
             </div>
           ))}
-          <div className="grid-2">
+          {/* <div className="grid-2">
             <div className="people-img">
               <img src={mahen} alt="" />
             </div>
@@ -77,7 +75,7 @@ const People = () => {
               <h3>Finetech</h3>
               <h3> Services</h3>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

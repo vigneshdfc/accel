@@ -55,19 +55,25 @@ a {
   background-color: skyblue;
   color: black;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 10px 50px 10px 50px;
 }
 .place {
   padding: 70px 85px 55px 35px;
   display: flex;
 }
 .place h4 {
-  color: #270157;
+  margin-bottom: 52px;
+  padding-right: 82px;
   font-size: x-large;
 }
 .place h5 {
+  display: inline-block;
   font-size: 20px;
-  padding: 6px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-right: 6px;
+  color: #270157;
 }
 .people-img img {
   height: 400px;
