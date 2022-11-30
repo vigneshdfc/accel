@@ -57,15 +57,27 @@ a {
   box-sizing: border-box;
   padding: 10px 50px 10px 50px;
 }
+.languages h4 {
+  border: none;
+  background-color: #9ebdf3;
+  color: black;
+  box-sizing: border-box;
+  padding: 10px 50px 10px 50px;
+}
 .place {
   padding: 70px 85px 55px 35px;
-  display: flex;
+  padding: 30px;
+}
+.place div {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 .place h4 {
   margin-bottom: 52px;
   padding-right: 82px;
   font-size: x-large;
 }
+
 .place h5 {
   display: inline-block;
   font-size: 20px;
@@ -82,4 +94,5 @@ a {
 .people-grid {
   display: flex;
   gap: 15px;
+  background-color: #f0f4fb;
 }

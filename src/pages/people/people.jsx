@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./people.css";
-import casey from "../../assets/People Images/casey.jpeg";
-import mahen from "../../assets/People Images/people 2.png";
-import luca from "../../assets/People Images/luca.jpeg";
 import { peopleData } from "../../data/people";
 
 const People = () => {
@@ -33,7 +30,7 @@ const People = () => {
           <a href="#">EMIRITUS</a>
         </div>
         <div className="people-grid">
-          {peopleData.map((people, i) => (
+          {peopleData.map((people) => (
             <div className="grid-1">
               <div className="people-img">
                 <img src={people.Image} />
