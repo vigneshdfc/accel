@@ -63,3 +63,20 @@
   gap: 40px;
   padding-top: 80px;
 }
+
+@media (max-width: 720px) {
+  .nav_logo {
+    padding: 10px;
+    height: 100%;
+    width: 100px;
+    background-color: white;
+  }
+}
+@media (max-width: 480px) {
+  .nav_logo {
+    padding: 10px;
+    height: 100%;
+    width: 100px;
+    background-color: white;
+  }
+}

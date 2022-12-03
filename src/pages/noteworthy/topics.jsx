@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./topics.css";
 import "./note.css";
 import { Link } from "react-router-dom";
@@ -19,19 +19,19 @@ const Topics = () => {
               <Link to="/noteworthy-topics">TOPICS</Link>
             </li>
             <li>
-              <Link to="#">PORTFOLIO</Link>
+              <Link to="/noteworthy-portfolio">PORTFOLIO</Link>
             </li>
             <li>
-              <Link to="#">ACCEL</Link>
+              <Link to="/noteworthy-accel">ACCEL</Link>
             </li>
           </ul>
         </div>
         <div className="topics_person">
-          {topicData.map((topic) => (
+          {topicData.map((topic, idx) => (
             <div>
-              <Link to="#">
+              <Link to={`/noteworthy/${topic.tittle}`}>
                 <img src={topic.image} width="470px" height="280px" />
-                <div className="topic_one">
+                <div className="topic_one" key={idx}>
                   <h4>TOPICS</h4>
                   <b>{topic.para}</b>
                   <div className="right_arrow">

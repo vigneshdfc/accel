@@ -24,10 +24,10 @@ const Recent = () => {
               <Link to="/noteworthy-topics">TOPICS</Link>
             </li>
             <li>
-              <Link to="#">PORTFOLIO</Link>
+              <Link to="/noteworthy-portfolio">PORTFOLIO</Link>
             </li>
             <li>
-              <Link to="#">ACCEL</Link>
+              <Link to="/noteworthy-accel">ACCEL</Link>
             </li>
           </ul>
         </div>

@@ -17,6 +17,10 @@ import Noteworthy from "./pages/noteworthy/note";
 import Recent from "./pages/noteworthy/recent";
 import Topics from "./pages/noteworthy/topics";
 import Navbar from "./components/nav/nav";
+import Portfolio from "./pages/noteworthy/portfolio";
+import Accel from "./pages/noteworthy/accel";
+import Notetemplates from "./pages/noteworthy/notetemplate";
+import Connect from "./pages/connect/connect";
 
 const App = () => {
   return (
@@ -36,8 +40,13 @@ const App = () => {
         <Route path="/noteworthy" element={<Noteworthy />} />
         <Route path="/news" element={<Recent />} />
         <Route path="/noteworthy-topics" element={<Topics />} />
+        <Route path="/noteworthy-portfolio" element={<Portfolio />} />
+        <Route path="/noteworthy-accel" element={<Accel />} />
+        <Route path="/noteworthy/:id" element={<Notetemplates />} />
+        <Route path="/connect" element={<Connect />} />
       </Routes>
       <Footer />
+      <Notetemplates />
     </div>
   );
 };

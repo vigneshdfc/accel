@@ -11,7 +11,7 @@ const Footer = () => {
         <Link to="/people">People</Link>
         <Link to="/noteworthy">NoteWorthy</Link>
         <a href="#">Jobs</a>
-        <a href="#">connect</a>
+        <Link to="/connect">connect</Link>
       </div>
       <div className="phrase-bar">
         <div className="part-1">

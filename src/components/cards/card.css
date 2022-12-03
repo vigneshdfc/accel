@@ -438,3 +438,14 @@ button img {
   border-top: 1px solid white;
   padding-top: 10px;
 }
+
+@media (max-width: 720px) {
+  .cards-section {
+    margin-left: 160px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    top: 10px;
+    gap: 10px;
+  }
+}

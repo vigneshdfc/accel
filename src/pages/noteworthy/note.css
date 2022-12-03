@@ -85,7 +85,6 @@
 .note_worth {
   display: flex;
   flex-direction: row;
-  /*margin-left: 160px;*/
 }
 .akto_ceo_note {
   display: flex;
@@ -145,4 +144,24 @@
   align-items: center;
   margin: 50px;
   gap: 20px;
+}
+
+@media (max-width: 720px) {
+  .noteworthy_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .fintech_note {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .note_worth {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .note_worth_two {
+    display: flex;
+    flex-direction: column;
+  }
 }

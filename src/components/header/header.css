@@ -4,8 +4,7 @@
   margin: 0;
 }
 .accel_atoms {
-  display: flex;
-  flex-wrap: wrap;
+  width: 89%;
   margin-left: 160px;
   padding: 40px 120px;
   background-color: #f8f1ff;
@@ -41,4 +40,17 @@ hr {
 }
 .readbutton :hover {
   background-color: white;
+}
+
+@media (max-width: 720px) {
+  .accel_atoms {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .accel_atoms {
+    display: block;
+    width: 100%;
+  }
 }

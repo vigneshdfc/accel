@@ -1,12 +1,12 @@
 .navbar {
-  height: 100%;
+  height: 80%;
   width: 155px;
   display: flex;
   position: fixed;
   top: 0%;
   left: 0%;
   right: 0;
-  bottom: 0px;
+  bottom: 280px;
   flex-direction: column;
   background-color: white;
   box-sizing: border-box;
@@ -16,8 +16,5 @@
   padding: 25px 70px 60px 60px;
 }
 .logo {
-  padding: 130px 45px 130px 45px;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
+  padding: 130px 5px 0px 45px;
 }

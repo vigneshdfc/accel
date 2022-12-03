@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.connect {
+  margin-left: 160px;
+}
+.contact {
+  margin: 40px;
+  margin-left: 200px;
+  position: absolute;
+  text-align: none;
+
+  background-color: #8cfff8;
+  top: 0;
+  bottom: 0;
+
+  left: 0;
+  right: 0;
+  width: 380px;
+  height: 544px;
+}
+.contact h4 {
+  border-bottom: 1px solid #0d1824;
+  font-size: 20px;
+  padding: 20px 34px;
+  color: #0d1824;
+  margin: 20px;
+}
+.contact h3 {
+  font-size: 20px;
+  padding: 20px 44px;
+  color: #0d1824;
+}
+
+.contact h1 {
+  padding: 30px;
+  background-color: aqua;
+
+  color: #270157;
+  font-size: 30px;
+}

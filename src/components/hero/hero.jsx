@@ -17,16 +17,16 @@ const Hero = () => {
                 value="SEARCH FOR A COMPANY,FOUNDER,OR PARTNER"
               />
             </div>
-            <div className="searchicon">
+            {/*<div className="searchicon">
               <img src={search} alt="search" />
-            </div>
+  </div>*/}
           </div>
         </div>
 
         <div className="brand_adv">
           <div className="video">
             <video controls autoplay muted id="myvideo">
-              <source src={add} type="video/mp4" />
+              <source src={add} type="video/mp4" width="100%" />
             </video>
           </div>
           <div className="myvideo">

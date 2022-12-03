@@ -54,3 +54,14 @@
   margin: 50px;
   gap: 20px;
 }
+
+@media (max-width: 720px) {
+  .note_topic {
+    display: flex;
+    flex-direction: column;
+  }
+  .topics_person {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -54,7 +54,7 @@ const Card = () => {
               url(${ceo})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                height: "100%",
+                height: "433px",
                 width: "100%",
               }}
             >
@@ -71,10 +71,6 @@ const Card = () => {
                     <div></div>
                   </div>
                 </Slider>
-              </div>
-              <div className="crowdlogo">
-                <img src={crowdlogo} width="143px" height="25px" />
-                <p>"Fail fast;evolve faster."-George Kurtz,co-founder& CEO</p>
               </div>
             </div>
           </div>
@@ -449,7 +445,7 @@ const Card = () => {
                   src={cloud}
                   alt={cloud}
                   width="373px"
-                  height="320px"
+                  height="330px"
                 />
               </a>
             </div>
