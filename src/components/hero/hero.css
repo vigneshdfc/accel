@@ -34,7 +34,7 @@ video::-webkit-media-controls {
 }
 .search input {
   outline: none;
-  border: 1px solid white;
+  border: 2px solid white;
   background-color: #d8d6db00;
   color: white;
   padding: 30px 356px 30px 40px;
@@ -86,9 +86,11 @@ video::-webkit-media-controls {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 100px;
   }
   .hero_slide {
     width: 100%;
+    padding: 300px 30px 200px 30px;
   }
   .hero_slide h1 {
     font-weight: bold;
@@ -98,6 +100,9 @@ video::-webkit-media-controls {
   .brand_adv {
     overflow: hidden;
     width: 100%;
+  }
+  .search input {
+    padding: 30px 180px 30px 20px;
   }
 }
 @media (max-width: 480px) {
@@ -110,6 +115,10 @@ video::-webkit-media-controls {
     font-weight: bold;
     font-size: 30px;
     padding: 0 5 10px 20px 50px;
+  }
+  .hero_slide {
+    width: 100%;
+    padding: 250px 30px 170px 30px;
   }
   .hero_slide {
     width: 100%;

@@ -49,17 +49,18 @@ const Card = () => {
           <div className="section-one">
             <div
               className="ceo"
-              style={{
-                backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
-              url(${ceo})`,
+             style={{
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+              url(${blur})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 height: "433px",
                 width: "100%",
               }}
+              
             >
               <div>
-                <img src={blur} height="433px" width="100%" />
+                <img src={ceo} height="433px" width="100%" />
               </div>
               <div className="crowdslider">
                 <Slider {...settings}>
@@ -263,8 +264,8 @@ const Card = () => {
                   className="uipath_ceo"
                   src={uipath}
                   alt={uipath}
-                  width="265px"
-                  height="370px"
+                  width="100%"
+                  height="430px"
                 />
               </a>
             </div>
@@ -298,7 +299,7 @@ const Card = () => {
                   className="etsy_ceo"
                   src={silverman}
                   alt={silverman}
-                  width="373px"
+                  width="100%"
                   height="353px"
                 />
               </a>
@@ -334,7 +335,7 @@ const Card = () => {
                   className="arista-ceo"
                   src={arista}
                   alt={arista}
-                  width="373px"
+                  width="100%"
                   height="353px"
                 />
               </a>
@@ -372,7 +373,7 @@ const Card = () => {
                   className="usertest-ceo"
                   src={user}
                   alt={user}
-                  width="373px"
+                  width=/*"373px"*/"100%"
                   height="353px"
                 />
               </a>
@@ -395,7 +396,7 @@ const Card = () => {
                   className="drop-ceo"
                   src={dropcam}
                   alt={dropcam}
-                  width="373px"
+                  width="100%"
                   height="280px"
                 />
               </a>
@@ -408,7 +409,7 @@ const Card = () => {
                   className="sumo-ceo"
                   src={sumo}
                   alt={sumo}
-                  width="267px"
+                  width="100%"
                   height="444px"
                 />
               </a>
@@ -444,7 +445,7 @@ const Card = () => {
                   className="cloud-ceo"
                   src={cloud}
                   alt={cloud}
-                  width="373px"
+                  width="100%"
                   height="330px"
                 />
               </a>

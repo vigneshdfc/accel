@@ -12,7 +12,7 @@
   gap: 10px;
 }
 .ceo img {
-  max-width: 100%;
+  width: 100%;
   /* transition: transform 0.2s; */
 }
 /* .ceo img:hover {
@@ -441,11 +441,77 @@ button img {
 
 @media (max-width: 720px) {
   .cards-section {
-    margin-left: 160px;
+    margin-left: 50px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
     top: 10px;
     gap: 10px;
+  }
+  .ceo img {
+    width: 73.5%;
+  }
+  .section-eight {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-nine {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-ten {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-eleven {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-twelve {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-thirten {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-fourten {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-fifeten {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-sixten {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-seventen {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+}
+@media (max-width: 480px) {
+  .cards-section {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    top: 10px;
+    gap: 10px;
+  }
+  .ceo {
+    width: 430px;
   }
 }

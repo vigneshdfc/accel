@@ -149,6 +149,8 @@
 @media (max-width: 720px) {
   .noteworthy_grid {
     display: flex;
+    margin-left: 50px;
+
     flex-direction: column;
   }
   .fintech_note {
@@ -163,5 +165,38 @@
   .note_worth_two {
     display: flex;
     flex-direction: column;
+  }
+  .grid_note_one img {
+    width: 480px;
+  }
+  .modern-img img {
+    width: 480px;
+  }
+  .euro_brand img {
+    width: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .noteworthy_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .fintech_note {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .note_worth {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .note_worth_two {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid_note_one img {
+    width: 480px;
   }
 }

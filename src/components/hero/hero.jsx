@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="search">
               <input
                 type="text"
-                value="SEARCH FOR A COMPANY,FOUNDER,OR PARTNER"
+                placeholder="SEARCH FOR A COMPANY,FOUNDER,OR PARTNER"
               />
             </div>
             {/*<div className="searchicon">

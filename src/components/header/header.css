@@ -44,13 +44,13 @@ hr {
 
 @media (max-width: 720px) {
   .accel_atoms {
-    display: block;
     width: 100%;
+    margin-left: 100px;
   }
 }
 @media (max-width: 480px) {
   .accel_atoms {
-    display: block;
     width: 100%;
+    margin-left: 100px;
   }
 }

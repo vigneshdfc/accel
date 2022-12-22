@@ -37,7 +37,7 @@ const Recent = () => {
               <div>
                 <Link to="#">
                   <div>
-                    <img src={fintech} width="520px" height="300px" />
+                    <img src={fintech} width="100%" height="300px" />
                   </div>
                   <div></div>
                 </Link>
@@ -74,7 +74,7 @@ const Recent = () => {
             <div className="grid_note_three">
               <div className="modern">
                 <Link to="#">
-                  <div>
+                  <div className="modern-img">
                     <img src={modern} width="430px" height="415px" />
                   </div>
                   <div className="well_theory">
@@ -149,7 +149,7 @@ const Recent = () => {
             <div className="grid_note_six">
               <div className="well">
                 <Link to="#">
-                  <div>
+                  <div className="euro_brand">
                     <img src={euro} width="430px" height="415px" />
                   </div>
                   <div className="euro">
