@@ -16,14 +16,14 @@ import jetceo from "../../assets/Images/people/jet.jpeg";
 import jetlogo from "../../assets/Images/people/jetlogo.svg";
 import couchbase from "../../assets/Images/people/couchbase1.jpeg";
 import couchbaselogo from "../../assets/Images/people/couchbaselogo.png";
-import uipath from "../../assets/Images/people/uipathceo.jpg";
+import uipath from "../../assets/Images/people/uipath.jpg";
 import uipathlogo from "../../assets/Images/people/uipathlogo.png";
-import silverman from "../../assets/Images/people/silverman.jpeg";
+import silverman from "../../assets/Images/people/silvermanceo.jpeg";
 import etsylogo from "../../assets/Images/people/etsy.png";
-import arista from "../../assets/Images/people/aristaceo.jpg";
+import arista from "../../assets/Images/people/arista.jpg";
 import aristalogo from "../../assets/Images/people/aristalogo.svg";
 import atoms from "../../assets/Images/icons/atoms.png";
-import user from "../../assets/Images/people/user.jpeg";
+import user from "../../assets/Images/people/userceo.jpeg";
 import userlogo from "../../assets/Images/people/userlogo.png";
 import dropcam from "../../assets/Images/people/dropcam.jpeg";
 import dropcamlogo from "../../assets/Images/people/dropcamlogo.png";
@@ -49,18 +49,16 @@ const Card = () => {
           <div className="section-one">
             <div
               className="ceo"
-             style={{
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+              /* style={{
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
               url(${blur})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 height: "433px",
-                width: "100%",
-              }}
-              
+              }}*/
             >
               <div>
-                <img src={ceo} height="433px" width="100%" />
+                <img src={ceo} height="433px" />
               </div>
               <div className="crowdslider">
                 <Slider {...settings}>
@@ -264,7 +262,6 @@ const Card = () => {
                   className="uipath_ceo"
                   src={uipath}
                   alt={uipath}
-                  width="100%"
                   height="430px"
                 />
               </a>
@@ -299,7 +296,6 @@ const Card = () => {
                   className="etsy_ceo"
                   src={silverman}
                   alt={silverman}
-                  width="100%"
                   height="353px"
                 />
               </a>
@@ -335,7 +331,6 @@ const Card = () => {
                   className="arista-ceo"
                   src={arista}
                   alt={arista}
-                  width="100%"
                   height="353px"
                 />
               </a>
@@ -373,7 +368,6 @@ const Card = () => {
                   className="usertest-ceo"
                   src={user}
                   alt={user}
-                  width=/*"373px"*/"100%"
                   height="353px"
                 />
               </a>
@@ -397,7 +391,7 @@ const Card = () => {
                   src={dropcam}
                   alt={dropcam}
                   width="100%"
-                  height="280px"
+                  height="320px"
                 />
               </a>
             </div>
@@ -405,13 +399,7 @@ const Card = () => {
           <div className="section-sixten">
             <div className="sumo">
               <a href="#">
-                <img
-                  className="sumo-ceo"
-                  src={sumo}
-                  alt={sumo}
-                  width="100%"
-                  height="444px"
-                />
+                <img className="sumo-ceo" src={sumo} alt={sumo} />
               </a>
             </div>
             <div className="sumologo">

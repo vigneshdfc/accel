@@ -49,6 +49,7 @@
 @media (max-width: 720px) {
   .down-bar {
     margin-left: 50px;
+    width: 100%;
   }
   .footer {
     display: flex;
@@ -64,6 +65,7 @@
   .down-bar {
     margin-left: 50px;
     display: flex;
+    width: 100px;
     flex-direction: column;
   }
   .footer {

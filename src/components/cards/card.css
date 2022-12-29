@@ -417,7 +417,7 @@ button img {
 }
 .sumologo p {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   border-top: 1px solid white;
   padding-top: 10px;
 }
@@ -496,6 +496,9 @@ button img {
     flex-direction: column;
     width: 73.5%;
   }
+  .sumo img {
+    width: 100%;
+  }
   .section-seventen {
     display: flex;
     flex-direction: column-reverse;
@@ -513,5 +516,55 @@ button img {
   }
   .ceo {
     width: 430px;
+  }
+  .section-eight {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-nine {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-ten {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-eleven {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-twelve {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-thirten {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-fourten {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-fifeten {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
+  }
+  .section-sixten {
+    display: flex;
+    flex-direction: column;
+    width: 73.5%;
+  }
+  .section-seventen {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 73.5%;
   }
 }

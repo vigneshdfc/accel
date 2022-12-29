@@ -75,9 +75,15 @@
   .nav_main {
     position: fixed;
   }
+  .input_search input {
+    padding: 23px 120px 23px 20px;
+  }
   .menu_nav img {
     width: 30px;
     height: 30px;
+  }
+  .scroll h1 {
+    font-size: 38px;
   }
 }
 @media (max-width: 480px) {
@@ -93,5 +99,8 @@
   .menu_nav img {
     width: 20px;
     height: 20px;
+  }
+  .scroll h1 {
+    font-size: 28px;
   }
 }
