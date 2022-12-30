@@ -449,52 +449,110 @@ button img {
     gap: 10px;
   }
   .ceo img {
-    width: 73.5%;
+    width: 100%;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-three {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .slacktext p {
+    font-size: 16px;
+    color: white;
+  }
+  .section-four {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .segment p {
+    font-size: 16px;
+    color: white;
+  }
+  .section-five {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-six {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-seven {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
   }
   .section-eight {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .note-worth {
+    box-sizing: border-box;
+    border-right: none;
+    border-bottom: 1px solid #ee495f;
+    padding: 50px;
+  }
+  .section-eight {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .uipath_ceo {
+    width: 100%;
   }
   .section-nine {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .etsy_ceo {
+    width: 100%;
   }
   .section-ten {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-eleven {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-twelve {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .arista-ceo {
+    width: 100%;
   }
   .section-thirten {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-fourten {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-fifeten {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-sixten {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
   }
   .sumo img {
     width: 100%;
@@ -502,7 +560,7 @@ button img {
   .section-seventen {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
 }
 @media (max-width: 480px) {
@@ -514,57 +572,117 @@ button img {
     top: 10px;
     gap: 10px;
   }
-  .ceo {
-    width: 430px;
+  .ceo img {
+    width: 100%;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-three {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .slacktext img {
+    padding: 20px 50px 15px 0;
+    border-bottom: 1px solid white;
+  }
+  .section-four {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-five {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-six {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .section-seven {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
   }
   .section-eight {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .note-worth {
+    box-sizing: border-box;
+    border-right: none;
+    border-bottom: 1px solid #ee495f;
+    padding: 50px;
+  }
+  .section-eight {
+    display: flex;
+    flex-direction: column;
+    width: 97.5%;
+  }
+  .uipath_ceo {
+    width: 100%;
   }
   .section-nine {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .etsy_ceo {
+    width: 100%;
   }
   .section-ten {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-eleven {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-twelve {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .arista-ceo {
+    width: 100%;
   }
   .section-thirten {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-fourten {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .usertest-ceo {
+    width: 100%;
   }
   .section-fifeten {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
   .section-sixten {
     display: flex;
     flex-direction: column;
-    width: 73.5%;
+    width: 97.5%;
+  }
+  .sumo img {
+    width: 100%;
   }
   .section-seventen {
     display: flex;
     flex-direction: column-reverse;
-    width: 73.5%;
+    width: 97.5%;
   }
 }

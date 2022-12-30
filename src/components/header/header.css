@@ -45,12 +45,12 @@ hr {
 @media (max-width: 720px) {
   .accel_atoms {
     width: 100%;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 }
 @media (max-width: 480px) {
   .accel_atoms {
     width: 100%;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 }

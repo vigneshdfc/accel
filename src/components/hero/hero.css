@@ -86,7 +86,7 @@ video::-webkit-media-controls {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .hero_slide {
     width: 100%;
@@ -110,6 +110,7 @@ video::-webkit-media-controls {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 50px;
   }
   .hero_slide h1 {
     font-weight: bold;
