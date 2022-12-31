@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <div className="down-bar">
       <div className="footer">
-        <Link to="/relationship">
+        <Link to="/">
           <h1>Relationship</h1>
         </Link>
-        <Link to="/people">
+        <Link to="/">
           <h1>People</h1>
         </Link>
         <Link to="/noteworthy">

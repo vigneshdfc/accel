@@ -51,167 +51,169 @@ const SimpleSlider = () => {
   const settings = {
     infinite: true,
     arrows: false,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1500,
     autoplaySpeed: 500,
-    //cssEase: "linear",
+    cssEase: "linear",
   };
   return (
     <div className="company_logo">
-      <Slider {...settings}>
-        <div>
-          <a href="#">
-            <img src={falcon} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={goat} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={hopin} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={airbyte} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={infra} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={kry} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={lydia} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={meglix} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={mensa} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={mindtickle} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={misfit} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={monte} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={chain} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={netskope} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={nuvemshop} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={payit} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={sennder} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={sentry} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={skydio} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={snorkel} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={snyl} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={source} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={sysdig} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={trader} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={unit} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={cognite} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={urban} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={vercel} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={w} width="auto" height="45px" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src={wonder} width="auto" height="45px" />
-          </a>
-        </div>
-      </Slider>
+      <div>
+        <Slider {...settings}>
+          <div>
+            <a href="#">
+              <img src={falcon} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={goat} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={hopin} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={airbyte} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={infra} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={kry} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={lydia} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={meglix} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={mensa} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={mindtickle} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={misfit} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={monte} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={chain} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={netskope} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={nuvemshop} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={payit} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={sennder} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={sentry} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={skydio} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={snorkel} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={snyl} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={source} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={sysdig} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={trader} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={unit} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={cognite} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={urban} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={vercel} width="auto" height="45px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={w} width="auto" height="25px" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src={wonder} width="auto" height="45px" />
+            </a>
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 };

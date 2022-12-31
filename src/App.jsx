@@ -25,18 +25,12 @@ import Connect from "./pages/connect/connect";
 const App = () => {
   return (
     <div>
-      {/* <SimpleSlider />
-      <Head />
-      <Hero />
-      <Card />
-      <Sidebar />
- */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/relationship" element={<Relationship />} />
-        <Route path="/relationship/:id" element={<RelationshipTemplate />} />
-        <Route path="/people" element={<People />} />
+        <Route path="/" element={<Relationship />} />
+        <Route path="/" element={<RelationshipTemplate />} />
+        <Route path="/" element={<People />} />
         <Route path="/noteworthy" element={<Noteworthy />} />
         <Route path="/news" element={<Recent />} />
         <Route path="/noteworthy-topics" element={<Topics />} />

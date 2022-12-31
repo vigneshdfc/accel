@@ -8,11 +8,6 @@ import Sidebar from "../../components/sidenav/sidenav";
 import People from "../people/people";
 import Relationship from "./index";
 import Pass from "./template";
-
-/*export const UserContext = React.createContext(false);
-
-
-  const [open, setOpen] = React.useState(false);*/
 const Home = () => {
   return (
     <>
@@ -20,11 +15,6 @@ const Home = () => {
       <Head />
       <Hero />
       <Card />
-
-      {/*<UserContext.Provider value={{ open, setOpen }}>
-        <Relationship />
-        <Pass />
-  </UserContext.Provider>*/}
     </>
   );
 };

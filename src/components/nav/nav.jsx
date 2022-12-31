@@ -18,12 +18,12 @@ const Navbar = () => {
             <div className="input_search">
               <input type="text" placeholder="search" />
             </div>
-            <Link to="/relationship">
+            <Link to="/">
               <h1>
                 Relationship <img src={arrow} width="40px" height="40px" />
               </h1>
             </Link>
-            <Link to="/people">
+            <Link to="/">
               <h1>
                 People <img src={arrow} width="40px" height="40px" />
               </h1>

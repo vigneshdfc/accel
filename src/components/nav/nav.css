@@ -10,10 +10,10 @@
   background-color: white;
 }
 .devalley img {
-  padding-top: 120px;
+  padding: 120px 30px 0 30px;
 }
 .menu_nav {
-  padding: 30px;
+  padding: 60px;
 }
 .nav_main {
   display: flex;
@@ -69,8 +69,12 @@
   .nav_logo {
     padding: 40px;
     height: 100%;
-    width: 120px;
+    width: 110px;
     background-color: white;
+  }
+  .devalley img {
+    padding-left: 20px;
+    width: 100px;
   }
   .nav_main {
     position: fixed;
@@ -78,9 +82,12 @@
   .input_search input {
     padding: 23px 120px 23px 20px;
   }
+  .menu_nav {
+    padding: 30px;
+  }
   .menu_nav img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
   .scroll h1 {
     font-size: 38px;
@@ -90,7 +97,7 @@
   .nav_logo {
     padding: 10px;
     height: 100%;
-    width: 100px;
+    width: 70px;
     background-color: white;
   }
   .nav_main {
@@ -99,6 +106,10 @@
   .menu_nav img {
     width: 20px;
     height: 20px;
+  }
+  .devalley img {
+    padding-left: 14px;
+    width: 80px;
   }
   .scroll h1 {
     font-size: 28px;

@@ -461,6 +461,14 @@ button img {
     flex-direction: column;
     width: 97.5%;
   }
+  .slacktext img {
+    padding: 20px 50px 15px 0;
+    border-bottom: 1px solid white;
+  }
+  .slacktext p {
+    font-size: 18px;
+    color: white;
+  }
   .slacktext p {
     font-size: 16px;
     color: white;
@@ -479,10 +487,25 @@ button img {
     flex-direction: column;
     width: 97.5%;
   }
+  .facebook img {
+    padding: 20px 90px 25px 0;
+    border-bottom: 1px solid white;
+  }
+  .facebook p {
+    font-size: 18px;
+    line-height: 116%;
+  }
   .section-six {
     display: flex;
     flex-direction: column;
     width: 97.5%;
+  }
+  .jet img {
+    padding: 20px 90px 25px 0;
+    border-bottom: 1px solid #4a0090;
+  }
+  .jet p {
+    font-size: 18px;
   }
   .section-seven {
     display: flex;
@@ -504,6 +527,13 @@ button img {
     display: flex;
     flex-direction: column;
     width: 97.5%;
+  }
+  .couchlogo img {
+    padding: 20px 0px 25px 0;
+    border-bottom: 1px solid #ea2327;
+  }
+  .couchlogo p {
+    font-size: 18px;
   }
   .uipath_ceo {
     width: 100%;
@@ -543,6 +573,9 @@ button img {
     display: flex;
     flex-direction: column-reverse;
     width: 97.5%;
+  }
+  .usertest-ceo {
+    width: 100%;
   }
   .section-fifeten {
     display: flex;
@@ -589,6 +622,14 @@ button img {
     padding: 20px 50px 15px 0;
     border-bottom: 1px solid white;
   }
+  .slacktext img {
+    padding: 20px 50px 15px 0;
+    border-bottom: 1px solid white;
+  }
+  .slacktext p {
+    font-size: 12px;
+    color: white;
+  }
   .section-four {
     display: flex;
     flex-direction: column;
@@ -599,17 +640,38 @@ button img {
     flex-direction: column;
     width: 97.5%;
   }
+  .facebook img {
+    padding: 20px 90px 25px 0;
+    border-bottom: 1px solid white;
+  }
+  .facebook p {
+    font-size: 12px;
+  }
   .section-six {
     display: flex;
     flex-direction: column;
     width: 97.5%;
+  }
+  .jet img {
+    padding: 20px 90px 25px 0;
+    border-bottom: 1px solid #4a0090;
+  }
+  .jet p {
+    font-size: 14px;
   }
   .section-seven {
     display: flex;
     flex-direction: column;
     width: 97.5%;
   }
-  .section-eight {
+  .couchlogo img {
+    padding: 20px 0px 25px 0;
+    border-bottom: 1px solid #ea2327;
+  }
+  .couchlogo p {
+    font-size: 14px;
+  }
+  .u .section-eight {
     display: flex;
     flex-direction: column;
     width: 97.5%;
@@ -652,6 +714,9 @@ button img {
     width: 97.5%;
   }
   .arista-ceo {
+    width: 100%;
+  }
+  .usertest-ceo {
     width: 100%;
   }
   .section-thirten {
