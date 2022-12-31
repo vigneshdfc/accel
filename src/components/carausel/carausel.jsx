@@ -204,7 +204,7 @@ const SimpleSlider = () => {
           </div>
           <div>
             <a href="#">
-              <img src={w} width="auto" height="25px" />
+              <img src={w} width="auto" height="2 5px" />
             </a>
           </div>
           <div>

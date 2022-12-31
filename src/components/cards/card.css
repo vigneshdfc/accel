@@ -695,7 +695,7 @@ button img {
   }
   .couchlogo {
     position: relative;
-    width: 100;
+    width: 100%;
   }
   .couchlogo p {
     font-size: 14px;
