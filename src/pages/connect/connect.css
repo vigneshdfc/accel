@@ -41,3 +41,25 @@
   color: #270157;
   font-size: 30px;
 }
+@media (max-width: 720px) {
+  .contact {
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+    margin: 0;
+  }
+  .connect {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .contact {
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+    margin: 0;
+  }
+  .connect {
+    margin-left: 50px;
+  }
+}
