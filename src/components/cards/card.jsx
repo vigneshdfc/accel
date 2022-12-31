@@ -137,7 +137,7 @@ const Card = () => {
             <div className="slack_ceo">
               <a href="#">
                 <img
-                  className="image"
+                  className="slack"
                   src={slack}
                   alt={slack}
                   width="100%"
@@ -163,7 +163,7 @@ const Card = () => {
               </a>
               <div className="segment">
                 <a href="#">
-                  <img src={segmentlogo} alt="" width="100%" />
+                  <img src={segmentlogo} alt="" />
                   <p>
                     "You need to be brutally honest with yourself as to what the
                     world really wants,and not what you think it wants."-Peter

@@ -604,6 +604,7 @@ button img {
     grid-gap: 10px;
     top: 10px;
     gap: 10px;
+    width: 100%;
   }
   .ceo img {
     width: 100%;
@@ -618,12 +619,17 @@ button img {
     flex-direction: column;
     width: 97.5%;
   }
-  .slacktext img {
-    padding: 20px 50px 15px 0;
-    border-bottom: 1px solid white;
+  .slacktext {
+    position: relative;
+    width: 100%;
   }
+  .slack {
+    width: 100%;
+    height: 100%;
+  }
+
   .slacktext img {
-    padding: 20px 50px 15px 0;
+    padding: 10px 20px 15px 0;
     border-bottom: 1px solid white;
   }
   .slacktext p {
@@ -635,10 +641,25 @@ button img {
     flex-direction: column;
     width: 97.5%;
   }
+  .segment {
+    position: relative;
+    width: 100%;
+  }
+  .segment img {
+    padding: 0;
+  }
+  /*.image {
+    width: 100%;
+    height: 100%;
+  }*/
   .section-five {
     display: flex;
     flex-direction: column;
     width: 97.5%;
+  }
+  .facebook {
+    position: relative;
+    width: 100%;
   }
   .facebook img {
     padding: 20px 90px 25px 0;
@@ -651,6 +672,10 @@ button img {
     display: flex;
     flex-direction: column;
     width: 97.5%;
+  }
+  .jet {
+    position: relative;
+    width: 100%;
   }
   .jet img {
     padding: 20px 90px 25px 0;
@@ -667,6 +692,10 @@ button img {
   .couchlogo img {
     padding: 20px 0px 25px 0;
     border-bottom: 1px solid #ea2327;
+  }
+  .couchlogo {
+    position: relative;
+    width: 100;
   }
   .couchlogo p {
     font-size: 14px;
